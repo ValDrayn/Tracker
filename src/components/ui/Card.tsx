@@ -124,7 +124,7 @@ export default function Card({
                       Rp. {formattedPrice}
                     </h1>
                   </div>
-                  <img src={up} alt="" className="scale-[90%] rotate-12 absolute w-auto h-auto right-[35%] top-[60%] -translate-y-1/2 translate-x-1/2"/>
+                  <img src={up} alt="" className="scale-[90%] rotate-12 w-auto h-auto "/>
                 </div>
               </div>
             </div>
