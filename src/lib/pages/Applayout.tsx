@@ -32,7 +32,7 @@ export default function AppLayout() {
   };
 
   return (
-    <div className="max-w-[26.875rem] w-full min-w-[24.5rem] h-[100vh] flex flex-col items-center p-4 bg-[#FFFEFA] relative">
+    <div className="max-w-[26.875rem] w-full min-w-[24.5rem] h-[100vh] flex flex-col items-center p-4 bg-[#FFFEFA] relative overflow-hidden">
       {header}
       {isValid && (
         <Select
@@ -54,12 +54,11 @@ export default function AppLayout() {
             className="font-bold text-[1.125rem]"
             style={{ color: "#989053" }}
           >
-            Largest Price Increase in next week
+            Largest price increase in next month
           </h1>
         </div>
       )}
       <Outlet />
-
       <Navbar className="absolute bottom-0 z-[100]" />
     </div>
   );

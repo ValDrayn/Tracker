@@ -1,0 +1,37 @@
+{
+  "data": [
+    {
+      "nama": "Kangkung",
+      "percentage": 19,
+      "location": "Jakarta",
+      "price": [
+        { "month": "Oct", "value": 14900 },
+        { "month": "Nov", "value": 16500 },
+        { "month": "Des", "value": 15400 },
+        { "month": "Jan", "value": 18000 }
+      ]
+    },
+    {
+      "location": "Sulawesi",
+      "percentage": 16,
+      "nama": "Apel",
+      "price": [
+        { "month": "Oct", "value": 14900 },
+        { "month": "Nov", "value": 16500 },
+        { "month": "Des", "value": 15400 },
+        { "month": "Jan", "value": 18000 }
+      ]
+    },
+    {
+      "location": "Bangka",
+      "percentage": 13,
+      "nama": "Wortel",
+      "price": [
+        { "month": "Oct", "value": 14900 },
+        { "month": "Nov", "value": 16500 },
+        { "month": "Des", "value": 15400 },
+        { "month": "Jan", "value": 18000 }
+      ]
+    }
+  ]
+}
