@@ -3,17 +3,39 @@ import kangkung from "/kangkung.png";
 import up from "/Stonk.png";
 import { Buttons } from "./Buttons";
 import { HTMLAttributes, useState } from "react";
-import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend } from "chart.js";
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend,
+} from "chart.js";
 import { Line } from "react-chartjs-2";
 
-ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend
+);
+
+type itemPrices = {
+  month: string,
+  value: number
+}
 
 type Props = {
   location?: string;
   percentage?: number;
   item?: string;
   id?: number;
-  price: number;
+  price: itemPrices[];
 };
 
 export default function Card({
@@ -26,12 +48,11 @@ export default function Card({
 }: Props & HTMLAttributes<HTMLDivElement>) {
   const [isOpen, setIsOpen] = useState(false);
 
-  const onformattedPrice = (price: number) => {
-    return price.toLocaleString('id-ID'); // Output: "10.000"
+  const onFormattedPrice = (price: itemPrices) => {
+    return price.value !== null ? price.value.toLocaleString("id-ID") : 0;
   };
-  
-  // Penggunaan
-  const formattedPrice = onformattedPrice(price);
+
+  const formattedPrice = price ? onFormattedPrice(price[3]) : [];
 
   return (
     <div className={cn("flex justify-center w-full", props.className)}>
@@ -78,7 +99,9 @@ export default function Card({
             <Buttons
               variant="primary"
               className="w-full"
-              onClick={() => setIsOpen(!isOpen)}
+              onClick={() => {
+                setIsOpen(!isOpen);
+              }}
             >
               Detail
             </Buttons>
@@ -102,7 +125,7 @@ export default function Card({
           ></div>
           <div
             className={cn(
-              `z-[150] w-full h-[60%] absolute bg-[#FFFEFA] rounded-t-[2.25rem] px-[1rem] transition-[bottom] duration-500 ease-in-out will-change-[bottom] flex flex-col overflow-y-auto pb-[5rem]`,
+              `z-[150] w-full h-[60%] absolute bg-[#FFFEFA] rounded-t-[2.25rem] px-[1rem] transition-[bottom] duration-500 ease-in-out will-change-[bottom] flex flex-col overflow-y-auto pb-[5rem] `,
               isOpen ? "bottom-0" : "-bottom-[50%]"
             )}
           >
@@ -124,21 +147,66 @@ export default function Card({
                       Rp. {formattedPrice}
                     </h1>
                   </div>
-                  <img src={up} alt="" className="scale-[90%] rotate-12 w-auto h-auto "/>
+                  <img
+                    src={up}
+                    alt=""
+                    className="scale-[90%] rotate-12 w-auto h-auto "
+                  />
                 </div>
               </div>
             </div>
             <div className="w-full h-auto">
-              <Line data={{
-                labels: ["Oct 2024", "Nov 2024", "Des 2024", "Jan 2025"],
-                datasets: [
-                  {
-                    label: "Price",
-                    data: [14900, 16400,15500, 18000],
-                    borderColor: "#9FBA42"
-                  }
-                ]
-              }}/>
+              {isOpen && (
+                <Line
+                  data={{
+                    labels: ["Oct 2024", "Nov 2024", "Des 2024", "Jan 2025"],
+                    datasets: [
+                      {
+                        label: "Price",
+                        data: price.map((item: itemPrices) => item.value),
+                        borderColor: "#9FBA42",
+                        borderWidth: 2,
+                        backgroundColor: "rgba(159, 186, 66, 0.3)",
+                        pointRadius: 3,
+                        pointBorderColor: "#b3bf82",
+                        pointBorderWidth: 0.5,
+                        tension: 0.3,
+                        fill: {
+                          target: 'origin',
+                          above: 'rgb(255, 0, 0)',  
+                          below: 'rgb(0, 0, 255)'   
+                        }
+                      },
+                    ],
+                  }}
+                  options={{
+                    animation: {
+                      duration: 800,
+                      easing: "easeInOutQuad",
+                    },
+                    maintainAspectRatio: false,
+                    responsive: true,
+                    plugins: {
+                      legend: {
+                        display: true,
+                        position: "top",
+                      },
+                    },
+                    scales: {
+                      x: {
+                        grid: {
+                          display: false,
+                        },
+                      },
+                      y: {
+                        grid: {
+                          display: false,
+                        },
+                      },
+                    },
+                  }}
+                />
+              )}
             </div>
           </div>
         </div>

@@ -9,6 +9,12 @@ import data from "../../../public/data/db.json";
 // ]
 
 const dummy = ["Jakarta", "Palembang", "Sulawesi", "Bangka", "Kalimantan"];
+const dummyData = [
+  { "month": "Oct", "value": 0 },
+  { "month": "Nov", "value": 0 },
+  { "month": "Des", "value": 0 },
+  { "month": "Jan", "value": 0 }
+]
 
 export default function Locations() {
     const params = useParams();
@@ -28,9 +34,9 @@ export default function Locations() {
                   location: data.data[index].location,
                   percentage: data.data[index].percentage,
                   nama: data.data[index].nama,
-                  price: data.data[index].price[3].value
+                  price: data.data[index].price
                 }
-              : { location: "Unknown", percentage: 0, nama: "TBA", price: 0};
+              : { location: "Unknown", percentage: 0, nama: "TBA", price: dummyData};
           });
     
         return <div className="overflow-y-auto scrollbar-hide w-full flex flex-col items-center gap-[1.25rem] pb-[4rem]" >

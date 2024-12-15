@@ -17,9 +17,9 @@
       "nama": "Apel",
       "price": [
         { "month": "Oct", "value": 14900 },
-        { "month": "Nov", "value": 16500 },
-        { "month": "Des", "value": 15400 },
-        { "month": "Jan", "value": 18000 }
+        { "month": "Nov", "value": 21000 },
+        { "month": "Des", "value": 12000 },
+        { "month": "Jan", "value": 17700 }
       ]
     },
     {
@@ -27,10 +27,10 @@
       "percentage": 13,
       "nama": "Wortel",
       "price": [
-        { "month": "Oct", "value": 14900 },
-        { "month": "Nov", "value": 16500 },
-        { "month": "Des", "value": 15400 },
-        { "month": "Jan", "value": 18000 }
+        { "month": "Oct", "value": 13000 },
+        { "month": "Nov", "value": 11700 },
+        { "month": "Des", "value": 14500 },
+        { "month": "Jan", "value": 16700 }
       ]
     }
   ]

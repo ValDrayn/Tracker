@@ -26,7 +26,7 @@ export default function Home() {
             location={item.location}
             percentage={item.percentage}
             item={item.nama}
-            price={item.price[3].value}
+            price={item.price}
           />
         );
       })}
