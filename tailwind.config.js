@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import tailwindScrollbarHide from "tailwind-scrollbar-hide";
+
 export default {
   content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
   theme: {
@@ -22,5 +24,5 @@ export default {
       },
     },
   },
-  plugins: [require("tailwind-scrollbar-hide")],
+  plugins: [tailwindScrollbarHide],
 };
