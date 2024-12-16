@@ -22,6 +22,17 @@ export default {
         "dark-grey": "#8789AC",
         "darker-blue": "#222477",
       },
+      keyframes: {
+        rotateInfinite: {
+          "0%": { transform: "rotate(90deg)" },
+          "25%": { transform: "rotate(90deg)" },
+          "50%": { transform: "rotate(0deg)" },
+          "100%": { transform: "rotate(0deg)" },
+        },
+      },
+      animation: {
+        rotateInfinite: "rotateInfinite 1.5s ease-out infinite",
+      },
     },
   },
   plugins: [tailwindScrollbarHide],

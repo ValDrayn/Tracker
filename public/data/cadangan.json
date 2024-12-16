@@ -1,0 +1,9034 @@
+{
+  "data": [
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Aceh",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 41510
+        },
+        {
+          "month": "Agustus",
+          "value": 27000
+        },
+        {
+          "month": "September",
+          "value": 26390
+        },
+        {
+          "month": "Oktober",
+          "value": 29740
+        },
+        {
+          "month": "November",
+          "value": 31520
+        },
+        {
+          "month": "Desember",
+          "value": 36770
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Aceh",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 40080
+        },
+        {
+          "month": "Agustus",
+          "value": 39090
+        },
+        {
+          "month": "September",
+          "value": 39280
+        },
+        {
+          "month": "Oktober",
+          "value": 39220
+        },
+        {
+          "month": "November",
+          "value": 40120
+        },
+        {
+          "month": "Desember",
+          "value": 42250
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Aceh",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 13350
+        },
+        {
+          "month": "Agustus",
+          "value": 13500
+        },
+        {
+          "month": "September",
+          "value": 13530
+        },
+        {
+          "month": "Oktober",
+          "value": 13530
+        },
+        {
+          "month": "November",
+          "value": 13360
+        },
+        {
+          "month": "Desember",
+          "value": 13380
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Aceh",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 14610
+        },
+        {
+          "month": "Agustus",
+          "value": 14660
+        },
+        {
+          "month": "September",
+          "value": 14720
+        },
+        {
+          "month": "Oktober",
+          "value": 14670
+        },
+        {
+          "month": "November",
+          "value": 14640
+        },
+        {
+          "month": "Desember",
+          "value": 14540
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Aceh",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12820
+        },
+        {
+          "month": "Agustus",
+          "value": 12880
+        },
+        {
+          "month": "September",
+          "value": 12880
+        },
+        {
+          "month": "Oktober",
+          "value": 12800
+        },
+        {
+          "month": "November",
+          "value": 12870
+        },
+        {
+          "month": "Desember",
+          "value": 12940
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Aceh",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 44010
+        },
+        {
+          "month": "Agustus",
+          "value": 35360
+        },
+        {
+          "month": "September",
+          "value": 40700
+        },
+        {
+          "month": "Oktober",
+          "value": 24820
+        },
+        {
+          "month": "November",
+          "value": 24670
+        },
+        {
+          "month": "Desember",
+          "value": 27240
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Aceh",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 40000
+        },
+        {
+          "month": "Agustus",
+          "value": 38930
+        },
+        {
+          "month": "September",
+          "value": 39430
+        },
+        {
+          "month": "Oktober",
+          "value": 40590
+        },
+        {
+          "month": "November",
+          "value": 41220
+        },
+        {
+          "month": "Desember",
+          "value": 44760
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Aceh",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 7000
+        },
+        {
+          "month": "Agustus",
+          "value": 7000
+        },
+        {
+          "month": "September",
+          "value": 7000
+        },
+        {
+          "month": "Oktober",
+          "value": 7000
+        },
+        {
+          "month": "November",
+          "value": 7000
+        },
+        {
+          "month": "Desember",
+          "value": 7000
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Bali",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 29130
+        },
+        {
+          "month": "Agustus",
+          "value": 22280
+        },
+        {
+          "month": "September",
+          "value": 21250
+        },
+        {
+          "month": "Oktober",
+          "value": 24300
+        },
+        {
+          "month": "November",
+          "value": 25250
+        },
+        {
+          "month": "Desember",
+          "value": 37700
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Bali",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 34710
+        },
+        {
+          "month": "Agustus",
+          "value": 35380
+        },
+        {
+          "month": "September",
+          "value": 35530
+        },
+        {
+          "month": "Oktober",
+          "value": 35600
+        },
+        {
+          "month": "November",
+          "value": 35650
+        },
+        {
+          "month": "Desember",
+          "value": 37790
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Bali",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 13580
+        },
+        {
+          "month": "Agustus",
+          "value": 13940
+        },
+        {
+          "month": "September",
+          "value": 14030
+        },
+        {
+          "month": "Oktober",
+          "value": 14080
+        },
+        {
+          "month": "November",
+          "value": 14240
+        },
+        {
+          "month": "Desember",
+          "value": 14020
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Bali",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 15160
+        },
+        {
+          "month": "Agustus",
+          "value": 15450
+        },
+        {
+          "month": "September",
+          "value": 15610
+        },
+        {
+          "month": "Oktober",
+          "value": 15530
+        },
+        {
+          "month": "November",
+          "value": 15660
+        },
+        {
+          "month": "Desember",
+          "value": 15620
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Bali",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12300
+        },
+        {
+          "month": "Agustus",
+          "value": 12210
+        },
+        {
+          "month": "September",
+          "value": 12190
+        },
+        {
+          "month": "Oktober",
+          "value": 12210
+        },
+        {
+          "month": "November",
+          "value": 12130
+        },
+        {
+          "month": "Desember",
+          "value": 12080
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Bali",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 37320
+        },
+        {
+          "month": "Agustus",
+          "value": 39150
+        },
+        {
+          "month": "September",
+          "value": 31790
+        },
+        {
+          "month": "Oktober",
+          "value": 19810
+        },
+        {
+          "month": "November",
+          "value": 18120
+        },
+        {
+          "month": "Desember",
+          "value": 28560
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Bali",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 33070
+        },
+        {
+          "month": "Agustus",
+          "value": 70470
+        },
+        {
+          "month": "September",
+          "value": 33960
+        },
+        {
+          "month": "Oktober",
+          "value": 32380
+        },
+        {
+          "month": "November",
+          "value": 33100
+        },
+        {
+          "month": "Desember",
+          "value": 39340
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Bali",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 5440
+        },
+        {
+          "month": "Agustus",
+          "value": 5550
+        },
+        {
+          "month": "September",
+          "value": 5850
+        },
+        {
+          "month": "Oktober",
+          "value": 5940
+        },
+        {
+          "month": "November",
+          "value": 5560
+        },
+        {
+          "month": "Desember",
+          "value": 5550
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Banten",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 33250
+        },
+        {
+          "month": "Agustus",
+          "value": 25740
+        },
+        {
+          "month": "September",
+          "value": 25520
+        },
+        {
+          "month": "Oktober",
+          "value": 27230
+        },
+        {
+          "month": "November",
+          "value": 30640
+        },
+        {
+          "month": "Desember",
+          "value": 38580
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Banten",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 39810
+        },
+        {
+          "month": "Agustus",
+          "value": 38790
+        },
+        {
+          "month": "September",
+          "value": 38660
+        },
+        {
+          "month": "Oktober",
+          "value": 38880
+        },
+        {
+          "month": "November",
+          "value": 39350
+        },
+        {
+          "month": "Desember",
+          "value": 39770
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Banten",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12730
+        },
+        {
+          "month": "Agustus",
+          "value": 12730
+        },
+        {
+          "month": "September",
+          "value": 12700
+        },
+        {
+          "month": "Oktober",
+          "value": 12780
+        },
+        {
+          "month": "November",
+          "value": 12600
+        },
+        {
+          "month": "Desember",
+          "value": 12980
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Banten",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 15110
+        },
+        {
+          "month": "Agustus",
+          "value": 14880
+        },
+        {
+          "month": "September",
+          "value": 14870
+        },
+        {
+          "month": "Oktober",
+          "value": 14750
+        },
+        {
+          "month": "November",
+          "value": 14570
+        },
+        {
+          "month": "Desember",
+          "value": 14780
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Banten",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12340
+        },
+        {
+          "month": "Agustus",
+          "value": 12320
+        },
+        {
+          "month": "September",
+          "value": 12430
+        },
+        {
+          "month": "Oktober",
+          "value": 12440
+        },
+        {
+          "month": "November",
+          "value": 12500
+        },
+        {
+          "month": "Desember",
+          "value": 12500
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Banten",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 36720
+        },
+        {
+          "month": "Agustus",
+          "value": 42600
+        },
+        {
+          "month": "September",
+          "value": 36470
+        },
+        {
+          "month": "Oktober",
+          "value": 28130
+        },
+        {
+          "month": "November",
+          "value": 26890
+        },
+        {
+          "month": "Desember",
+          "value": 36230
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Banten",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 38730
+        },
+        {
+          "month": "Agustus",
+          "value": 75700
+        },
+        {
+          "month": "September",
+          "value": 48710
+        },
+        {
+          "month": "Oktober",
+          "value": 43500
+        },
+        {
+          "month": "November",
+          "value": 43320
+        },
+        {
+          "month": "Desember",
+          "value": 44030
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Banten",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 6930
+        },
+        {
+          "month": "Agustus",
+          "value": 7790
+        },
+        {
+          "month": "September",
+          "value": 8680
+        },
+        {
+          "month": "Oktober",
+          "value": 7870
+        },
+        {
+          "month": "November",
+          "value": 8430
+        },
+        {
+          "month": "Desember",
+          "value": 8300
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Bengkulu",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 39460
+        },
+        {
+          "month": "Agustus",
+          "value": 27100
+        },
+        {
+          "month": "September",
+          "value": 23840
+        },
+        {
+          "month": "Oktober",
+          "value": 27540
+        },
+        {
+          "month": "November",
+          "value": 31380
+        },
+        {
+          "month": "Desember",
+          "value": 39000
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Bengkulu",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 39880
+        },
+        {
+          "month": "Agustus",
+          "value": 39230
+        },
+        {
+          "month": "September",
+          "value": 38680
+        },
+        {
+          "month": "Oktober",
+          "value": 39020
+        },
+        {
+          "month": "November",
+          "value": 40000
+        },
+        {
+          "month": "Desember",
+          "value": 42010
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Bengkulu",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 13440
+        },
+        {
+          "month": "Agustus",
+          "value": 13470
+        },
+        {
+          "month": "September",
+          "value": 13900
+        },
+        {
+          "month": "Oktober",
+          "value": 13930
+        },
+        {
+          "month": "November",
+          "value": 13880
+        },
+        {
+          "month": "Desember",
+          "value": 13530
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Bengkulu",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 15370
+        },
+        {
+          "month": "Agustus",
+          "value": 15420
+        },
+        {
+          "month": "September",
+          "value": 15600
+        },
+        {
+          "month": "Oktober",
+          "value": 15490
+        },
+        {
+          "month": "November",
+          "value": 15470
+        },
+        {
+          "month": "Desember",
+          "value": 15420
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Bengkulu",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12340
+        },
+        {
+          "month": "Agustus",
+          "value": 12810
+        },
+        {
+          "month": "September",
+          "value": 12840
+        },
+        {
+          "month": "Oktober",
+          "value": 12690
+        },
+        {
+          "month": "November",
+          "value": 12620
+        },
+        {
+          "month": "Desember",
+          "value": 12430
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Bengkulu",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 42180
+        },
+        {
+          "month": "Agustus",
+          "value": 40310
+        },
+        {
+          "month": "September",
+          "value": 36030
+        },
+        {
+          "month": "Oktober",
+          "value": 27130
+        },
+        {
+          "month": "November",
+          "value": 23690
+        },
+        {
+          "month": "Desember",
+          "value": 31200
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Bengkulu",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 47780
+        },
+        {
+          "month": "Agustus",
+          "value": 70720
+        },
+        {
+          "month": "September",
+          "value": 48590
+        },
+        {
+          "month": "Oktober",
+          "value": 45650
+        },
+        {
+          "month": "November",
+          "value": 43870
+        },
+        {
+          "month": "Desember",
+          "value": 41260
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Yogyakarta",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 32990
+        },
+        {
+          "month": "Agustus",
+          "value": 19890
+        },
+        {
+          "month": "September",
+          "value": 19600
+        },
+        {
+          "month": "Oktober",
+          "value": 23200
+        },
+        {
+          "month": "November",
+          "value": 28380
+        },
+        {
+          "month": "Desember",
+          "value": 39890
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Yogyakarta",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 36670
+        },
+        {
+          "month": "Agustus",
+          "value": 35260
+        },
+        {
+          "month": "September",
+          "value": 34670
+        },
+        {
+          "month": "Oktober",
+          "value": 35760
+        },
+        {
+          "month": "November",
+          "value": 36750
+        },
+        {
+          "month": "Desember",
+          "value": 37980
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Yogyakarta",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12830
+        },
+        {
+          "month": "Agustus",
+          "value": 12920
+        },
+        {
+          "month": "September",
+          "value": 12790
+        },
+        {
+          "month": "Oktober",
+          "value": 12990
+        },
+        {
+          "month": "November",
+          "value": 12930
+        },
+        {
+          "month": "Desember",
+          "value": 12940
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Yogyakarta",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 14360
+        },
+        {
+          "month": "Agustus",
+          "value": 14310
+        },
+        {
+          "month": "September",
+          "value": 14360
+        },
+        {
+          "month": "Oktober",
+          "value": 14380
+        },
+        {
+          "month": "November",
+          "value": 14390
+        },
+        {
+          "month": "Desember",
+          "value": 14220
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Yogyakarta",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12370
+        },
+        {
+          "month": "Agustus",
+          "value": 12370
+        },
+        {
+          "month": "September",
+          "value": 12280
+        },
+        {
+          "month": "Oktober",
+          "value": 12250
+        },
+        {
+          "month": "November",
+          "value": 12230
+        },
+        {
+          "month": "Desember",
+          "value": 12280
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Yogyakarta",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 31760
+        },
+        {
+          "month": "Agustus",
+          "value": 33310
+        },
+        {
+          "month": "September",
+          "value": 26290
+        },
+        {
+          "month": "Oktober",
+          "value": 16190
+        },
+        {
+          "month": "November",
+          "value": 17260
+        },
+        {
+          "month": "Desember",
+          "value": 38300
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Yogyakarta",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 31300
+        },
+        {
+          "month": "Agustus",
+          "value": 70690
+        },
+        {
+          "month": "September",
+          "value": 28440
+        },
+        {
+          "month": "Oktober",
+          "value": 32890
+        },
+        {
+          "month": "November",
+          "value": 32690
+        },
+        {
+          "month": "Desember",
+          "value": 38140
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Yogyakarta",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 4970
+        },
+        {
+          "month": "Agustus",
+          "value": 4750
+        },
+        {
+          "month": "September",
+          "value": 4970
+        },
+        {
+          "month": "Oktober",
+          "value": 5500
+        },
+        {
+          "month": "November",
+          "value": 5300
+        },
+        {
+          "month": "Desember",
+          "value": 7420
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "DKI Jakarta",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 44600
+        },
+        {
+          "month": "Agustus",
+          "value": 33820
+        },
+        {
+          "month": "September",
+          "value": 29400
+        },
+        {
+          "month": "Oktober",
+          "value": 30370
+        },
+        {
+          "month": "November",
+          "value": 35380
+        },
+        {
+          "month": "Desember",
+          "value": 44500
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "DKI Jakarta",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 42000
+        },
+        {
+          "month": "Agustus",
+          "value": 42000
+        },
+        {
+          "month": "September",
+          "value": 40520
+        },
+        {
+          "month": "Oktober",
+          "value": 40520
+        },
+        {
+          "month": "November",
+          "value": 41300
+        },
+        {
+          "month": "Desember",
+          "value": 41990
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "DKI Jakarta",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 13720
+        },
+        {
+          "month": "Agustus",
+          "value": 13690
+        },
+        {
+          "month": "September",
+          "value": 13850
+        },
+        {
+          "month": "Oktober",
+          "value": 13510
+        },
+        {
+          "month": "November",
+          "value": 13290
+        },
+        {
+          "month": "Desember",
+          "value": 13210
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "DKI Jakarta",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 15710
+        },
+        {
+          "month": "Agustus",
+          "value": 15870
+        },
+        {
+          "month": "September",
+          "value": 15770
+        },
+        {
+          "month": "Oktober",
+          "value": 15560
+        },
+        {
+          "month": "November",
+          "value": 15110
+        },
+        {
+          "month": "Desember",
+          "value": 14960
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "DKI Jakarta",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 11490
+        },
+        {
+          "month": "Agustus",
+          "value": 11490
+        },
+        {
+          "month": "September",
+          "value": 11490
+        },
+        {
+          "month": "Oktober",
+          "value": 11490
+        },
+        {
+          "month": "November",
+          "value": 11490
+        },
+        {
+          "month": "Desember",
+          "value": 11490
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "DKI Jakarta",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 42310
+        },
+        {
+          "month": "Agustus",
+          "value": 48240
+        },
+        {
+          "month": "September",
+          "value": 39890
+        },
+        {
+          "month": "Oktober",
+          "value": 33530
+        },
+        {
+          "month": "November",
+          "value": 31730
+        },
+        {
+          "month": "Desember",
+          "value": 46470
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "DKI Jakarta",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 42630
+        },
+        {
+          "month": "Agustus",
+          "value": 78040
+        },
+        {
+          "month": "September",
+          "value": 49280
+        },
+        {
+          "month": "Oktober",
+          "value": 43430
+        },
+        {
+          "month": "November",
+          "value": 50380
+        },
+        {
+          "month": "Desember",
+          "value": 47510
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Gorontalo",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 44020
+        },
+        {
+          "month": "Agustus",
+          "value": 24440
+        },
+        {
+          "month": "September",
+          "value": 25300
+        },
+        {
+          "month": "Oktober",
+          "value": 32710
+        },
+        {
+          "month": "November",
+          "value": 37250
+        },
+        {
+          "month": "Desember",
+          "value": 46220
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Gorontalo",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 46370
+        },
+        {
+          "month": "Agustus",
+          "value": 44130
+        },
+        {
+          "month": "September",
+          "value": 44510
+        },
+        {
+          "month": "Oktober",
+          "value": 44640
+        },
+        {
+          "month": "November",
+          "value": 44150
+        },
+        {
+          "month": "Desember",
+          "value": 46480
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Gorontalo",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 13200
+        },
+        {
+          "month": "Agustus",
+          "value": 13380
+        },
+        {
+          "month": "September",
+          "value": 13620
+        },
+        {
+          "month": "Oktober",
+          "value": 13530
+        },
+        {
+          "month": "November",
+          "value": 13310
+        },
+        {
+          "month": "Desember",
+          "value": 12860
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Gorontalo",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 15020
+        },
+        {
+          "month": "Agustus",
+          "value": 15230
+        },
+        {
+          "month": "September",
+          "value": 15410
+        },
+        {
+          "month": "Oktober",
+          "value": 15280
+        },
+        {
+          "month": "November",
+          "value": 15130
+        },
+        {
+          "month": "Desember",
+          "value": 15040
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Gorontalo",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12470
+        },
+        {
+          "month": "Agustus",
+          "value": 12470
+        },
+        {
+          "month": "September",
+          "value": 12440
+        },
+        {
+          "month": "Oktober",
+          "value": 12470
+        },
+        {
+          "month": "November",
+          "value": 12500
+        },
+        {
+          "month": "Desember",
+          "value": 12500
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Gorontalo",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 51890
+        },
+        {
+          "month": "Agustus",
+          "value": 46040
+        },
+        {
+          "month": "September",
+          "value": 48210
+        },
+        {
+          "month": "Oktober",
+          "value": 47520
+        },
+        {
+          "month": "November",
+          "value": 34870
+        },
+        {
+          "month": "Desember",
+          "value": 30100
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Gorontalo",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 51090
+        },
+        {
+          "month": "Agustus",
+          "value": 61130
+        },
+        {
+          "month": "September",
+          "value": 64540
+        },
+        {
+          "month": "Oktober",
+          "value": 71870
+        },
+        {
+          "month": "November",
+          "value": 42290
+        },
+        {
+          "month": "Desember",
+          "value": 38050
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Jambi",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 33740
+        },
+        {
+          "month": "Agustus",
+          "value": 22650
+        },
+        {
+          "month": "September",
+          "value": 20570
+        },
+        {
+          "month": "Oktober",
+          "value": 25180
+        },
+        {
+          "month": "November",
+          "value": 26720
+        },
+        {
+          "month": "Desember",
+          "value": 30220
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Jambi",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 36510
+        },
+        {
+          "month": "Agustus",
+          "value": 36990
+        },
+        {
+          "month": "September",
+          "value": 36800
+        },
+        {
+          "month": "Oktober",
+          "value": 37640
+        },
+        {
+          "month": "November",
+          "value": 37500
+        },
+        {
+          "month": "Desember",
+          "value": 39730
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Jambi",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 13060
+        },
+        {
+          "month": "Agustus",
+          "value": 12980
+        },
+        {
+          "month": "September",
+          "value": 13120
+        },
+        {
+          "month": "Oktober",
+          "value": 13120
+        },
+        {
+          "month": "November",
+          "value": 13110
+        },
+        {
+          "month": "Desember",
+          "value": 13190
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Jambi",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 14630
+        },
+        {
+          "month": "Agustus",
+          "value": 14680
+        },
+        {
+          "month": "September",
+          "value": 15030
+        },
+        {
+          "month": "Oktober",
+          "value": 14990
+        },
+        {
+          "month": "November",
+          "value": 14980
+        },
+        {
+          "month": "Desember",
+          "value": 15030
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Jambi",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12660
+        },
+        {
+          "month": "Agustus",
+          "value": 12640
+        },
+        {
+          "month": "September",
+          "value": 12590
+        },
+        {
+          "month": "Oktober",
+          "value": 12590
+        },
+        {
+          "month": "November",
+          "value": 12560
+        },
+        {
+          "month": "Desember",
+          "value": 12510
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Jambi",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 32380
+        },
+        {
+          "month": "Agustus",
+          "value": 35430
+        },
+        {
+          "month": "September",
+          "value": 30160
+        },
+        {
+          "month": "Oktober",
+          "value": 21210
+        },
+        {
+          "month": "November",
+          "value": 20460
+        },
+        {
+          "month": "Desember",
+          "value": 28820
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Jambi",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 43620
+        },
+        {
+          "month": "Agustus",
+          "value": 63470
+        },
+        {
+          "month": "September",
+          "value": 48180
+        },
+        {
+          "month": "Oktober",
+          "value": 43450
+        },
+        {
+          "month": "November",
+          "value": 41640
+        },
+        {
+          "month": "Desember",
+          "value": 39340
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Jambi",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 8990
+        },
+        {
+          "month": "Agustus",
+          "value": 9430
+        },
+        {
+          "month": "September",
+          "value": 9560
+        },
+        {
+          "month": "Oktober",
+          "value": 10570
+        },
+        {
+          "month": "November",
+          "value": 9780
+        },
+        {
+          "month": "Desember",
+          "value": 10000
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Jawa Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 33940
+        },
+        {
+          "month": "Agustus",
+          "value": 26250
+        },
+        {
+          "month": "September",
+          "value": 23900
+        },
+        {
+          "month": "Oktober",
+          "value": 25720
+        },
+        {
+          "month": "November",
+          "value": 30970
+        },
+        {
+          "month": "Desember",
+          "value": 38500
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Jawa Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 38890
+        },
+        {
+          "month": "Agustus",
+          "value": 39210
+        },
+        {
+          "month": "September",
+          "value": 38670
+        },
+        {
+          "month": "Oktober",
+          "value": 38180
+        },
+        {
+          "month": "November",
+          "value": 38550
+        },
+        {
+          "month": "Desember",
+          "value": 40040
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Jawa Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12730
+        },
+        {
+          "month": "Agustus",
+          "value": 12900
+        },
+        {
+          "month": "September",
+          "value": 12940
+        },
+        {
+          "month": "Oktober",
+          "value": 12910
+        },
+        {
+          "month": "November",
+          "value": 12840
+        },
+        {
+          "month": "Desember",
+          "value": 12840
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Jawa Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 14690
+        },
+        {
+          "month": "Agustus",
+          "value": 14870
+        },
+        {
+          "month": "September",
+          "value": 14890
+        },
+        {
+          "month": "Oktober",
+          "value": 14840
+        },
+        {
+          "month": "November",
+          "value": 14840
+        },
+        {
+          "month": "Desember",
+          "value": 14640
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Jawa Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12180
+        },
+        {
+          "month": "Agustus",
+          "value": 12300
+        },
+        {
+          "month": "September",
+          "value": 12360
+        },
+        {
+          "month": "Oktober",
+          "value": 12380
+        },
+        {
+          "month": "November",
+          "value": 12390
+        },
+        {
+          "month": "Desember",
+          "value": 12390
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Jawa Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 39620
+        },
+        {
+          "month": "Agustus",
+          "value": 43020
+        },
+        {
+          "month": "September",
+          "value": 37910
+        },
+        {
+          "month": "Oktober",
+          "value": 28650
+        },
+        {
+          "month": "November",
+          "value": 28220
+        },
+        {
+          "month": "Desember",
+          "value": 36550
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Jawa Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 40050
+        },
+        {
+          "month": "Agustus",
+          "value": 75950
+        },
+        {
+          "month": "September",
+          "value": 44540
+        },
+        {
+          "month": "Oktober",
+          "value": 41050
+        },
+        {
+          "month": "November",
+          "value": 43410
+        },
+        {
+          "month": "Desember",
+          "value": 42980
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Jawa Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 5440
+        },
+        {
+          "month": "Agustus",
+          "value": 5060
+        },
+        {
+          "month": "September",
+          "value": 5400
+        },
+        {
+          "month": "Oktober",
+          "value": 5430
+        },
+        {
+          "month": "November",
+          "value": 5640
+        },
+        {
+          "month": "Desember",
+          "value": 5710
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Jawa Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 32300
+        },
+        {
+          "month": "Agustus",
+          "value": 23650
+        },
+        {
+          "month": "September",
+          "value": 22490
+        },
+        {
+          "month": "Oktober",
+          "value": 24330
+        },
+        {
+          "month": "November",
+          "value": 29140
+        },
+        {
+          "month": "Desember",
+          "value": 37500
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Jawa Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 36710
+        },
+        {
+          "month": "Agustus",
+          "value": 36290
+        },
+        {
+          "month": "September",
+          "value": 35880
+        },
+        {
+          "month": "Oktober",
+          "value": 36050
+        },
+        {
+          "month": "November",
+          "value": 37050
+        },
+        {
+          "month": "Desember",
+          "value": 38150
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Jawa Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12950
+        },
+        {
+          "month": "Agustus",
+          "value": 12970
+        },
+        {
+          "month": "September",
+          "value": 13120
+        },
+        {
+          "month": "Oktober",
+          "value": 13190
+        },
+        {
+          "month": "November",
+          "value": 13090
+        },
+        {
+          "month": "Desember",
+          "value": 12920
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Jawa Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 14780
+        },
+        {
+          "month": "Agustus",
+          "value": 14820
+        },
+        {
+          "month": "September",
+          "value": 14990
+        },
+        {
+          "month": "Oktober",
+          "value": 14890
+        },
+        {
+          "month": "November",
+          "value": 14880
+        },
+        {
+          "month": "Desember",
+          "value": 14630
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Jawa Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12180
+        },
+        {
+          "month": "Agustus",
+          "value": 12150
+        },
+        {
+          "month": "September",
+          "value": 12170
+        },
+        {
+          "month": "Oktober",
+          "value": 12190
+        },
+        {
+          "month": "November",
+          "value": 12260
+        },
+        {
+          "month": "Desember",
+          "value": 12190
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Jawa Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 31980
+        },
+        {
+          "month": "Agustus",
+          "value": 34850
+        },
+        {
+          "month": "September",
+          "value": 27420
+        },
+        {
+          "month": "Oktober",
+          "value": 21680
+        },
+        {
+          "month": "November",
+          "value": 21940
+        },
+        {
+          "month": "Desember",
+          "value": 31380
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Jawa Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 31940
+        },
+        {
+          "month": "Agustus",
+          "value": 68770
+        },
+        {
+          "month": "September",
+          "value": 32440
+        },
+        {
+          "month": "Oktober",
+          "value": 35630
+        },
+        {
+          "month": "November",
+          "value": 35300
+        },
+        {
+          "month": "Desember",
+          "value": 35560
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Jawa Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 4910
+        },
+        {
+          "month": "Agustus",
+          "value": 4720
+        },
+        {
+          "month": "September",
+          "value": 5210
+        },
+        {
+          "month": "Oktober",
+          "value": 5070
+        },
+        {
+          "month": "November",
+          "value": 5110
+        },
+        {
+          "month": "Desember",
+          "value": 5230
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Jawa Timur",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 30720
+        },
+        {
+          "month": "Agustus",
+          "value": 20420
+        },
+        {
+          "month": "September",
+          "value": 19600
+        },
+        {
+          "month": "Oktober",
+          "value": 22240
+        },
+        {
+          "month": "November",
+          "value": 27630
+        },
+        {
+          "month": "Desember",
+          "value": 37160
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Jawa Timur",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 34540
+        },
+        {
+          "month": "Agustus",
+          "value": 35000
+        },
+        {
+          "month": "September",
+          "value": 35080
+        },
+        {
+          "month": "Oktober",
+          "value": 35000
+        },
+        {
+          "month": "November",
+          "value": 34970
+        },
+        {
+          "month": "Desember",
+          "value": 37750
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Jawa Timur",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12540
+        },
+        {
+          "month": "Agustus",
+          "value": 12630
+        },
+        {
+          "month": "September",
+          "value": 12540
+        },
+        {
+          "month": "Oktober",
+          "value": 12610
+        },
+        {
+          "month": "November",
+          "value": 12650
+        },
+        {
+          "month": "Desember",
+          "value": 12490
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Jawa Timur",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 14590
+        },
+        {
+          "month": "Agustus",
+          "value": 14570
+        },
+        {
+          "month": "September",
+          "value": 14610
+        },
+        {
+          "month": "Oktober",
+          "value": 14590
+        },
+        {
+          "month": "November",
+          "value": 14640
+        },
+        {
+          "month": "Desember",
+          "value": 14500
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Jawa Timur",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12050
+        },
+        {
+          "month": "Agustus",
+          "value": 12020
+        },
+        {
+          "month": "September",
+          "value": 12050
+        },
+        {
+          "month": "Oktober",
+          "value": 12020
+        },
+        {
+          "month": "November",
+          "value": 11980
+        },
+        {
+          "month": "Desember",
+          "value": 11930
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Jawa Timur",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 31440
+        },
+        {
+          "month": "Agustus",
+          "value": 35270
+        },
+        {
+          "month": "September",
+          "value": 27510
+        },
+        {
+          "month": "Oktober",
+          "value": 20300
+        },
+        {
+          "month": "November",
+          "value": 18830
+        },
+        {
+          "month": "Desember",
+          "value": 27370
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Jawa Timur",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 30080
+        },
+        {
+          "month": "Agustus",
+          "value": 66390
+        },
+        {
+          "month": "September",
+          "value": 32860
+        },
+        {
+          "month": "Oktober",
+          "value": 30580
+        },
+        {
+          "month": "November",
+          "value": 29900
+        },
+        {
+          "month": "Desember",
+          "value": 36130
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Jawa Timur",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 5210
+        },
+        {
+          "month": "Agustus",
+          "value": 5120
+        },
+        {
+          "month": "September",
+          "value": 5510
+        },
+        {
+          "month": "Oktober",
+          "value": 5470
+        },
+        {
+          "month": "November",
+          "value": 5380
+        },
+        {
+          "month": "Desember",
+          "value": 5580
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Kalimantan Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 42990
+        },
+        {
+          "month": "Agustus",
+          "value": 30380
+        },
+        {
+          "month": "September",
+          "value": 28670
+        },
+        {
+          "month": "Oktober",
+          "value": 30350
+        },
+        {
+          "month": "November",
+          "value": 34450
+        },
+        {
+          "month": "Desember",
+          "value": 47570
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Kalimantan Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 40530
+        },
+        {
+          "month": "Agustus",
+          "value": 37980
+        },
+        {
+          "month": "September",
+          "value": 37030
+        },
+        {
+          "month": "Oktober",
+          "value": 38350
+        },
+        {
+          "month": "November",
+          "value": 38570
+        },
+        {
+          "month": "Desember",
+          "value": 44040
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Kalimantan Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 14810
+        },
+        {
+          "month": "Agustus",
+          "value": 14780
+        },
+        {
+          "month": "September",
+          "value": 14750
+        },
+        {
+          "month": "Oktober",
+          "value": 14520
+        },
+        {
+          "month": "November",
+          "value": 14630
+        },
+        {
+          "month": "Desember",
+          "value": 14610
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Kalimantan Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 17270
+        },
+        {
+          "month": "Agustus",
+          "value": 17240
+        },
+        {
+          "month": "September",
+          "value": 17180
+        },
+        {
+          "month": "Oktober",
+          "value": 17080
+        },
+        {
+          "month": "November",
+          "value": 17110
+        },
+        {
+          "month": "Desember",
+          "value": 17110
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Kalimantan Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12980
+        },
+        {
+          "month": "Agustus",
+          "value": 13000
+        },
+        {
+          "month": "September",
+          "value": 13020
+        },
+        {
+          "month": "Oktober",
+          "value": 12970
+        },
+        {
+          "month": "November",
+          "value": 13050
+        },
+        {
+          "month": "Desember",
+          "value": 12990
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Kalimantan Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 60510
+        },
+        {
+          "month": "Agustus",
+          "value": 53930
+        },
+        {
+          "month": "September",
+          "value": 56660
+        },
+        {
+          "month": "Oktober",
+          "value": 57990
+        },
+        {
+          "month": "November",
+          "value": 40910
+        },
+        {
+          "month": "Desember",
+          "value": 54400
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Kalimantan Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 71040
+        },
+        {
+          "month": "Agustus",
+          "value": 80940
+        },
+        {
+          "month": "September",
+          "value": 74940
+        },
+        {
+          "month": "Oktober",
+          "value": 66770
+        },
+        {
+          "month": "November",
+          "value": 43450
+        },
+        {
+          "month": "Desember",
+          "value": 55050
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Kalimantan Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 5420
+        },
+        {
+          "month": "Agustus",
+          "value": 5130
+        },
+        {
+          "month": "September",
+          "value": 5030
+        },
+        {
+          "month": "Oktober",
+          "value": 5000
+        },
+        {
+          "month": "November",
+          "value": 5420
+        },
+        {
+          "month": "Desember",
+          "value": 5700
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Kalimantan Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 35910
+        },
+        {
+          "month": "Agustus",
+          "value": 23040
+        },
+        {
+          "month": "September",
+          "value": 22990
+        },
+        {
+          "month": "Oktober",
+          "value": 25600
+        },
+        {
+          "month": "November",
+          "value": 28250
+        },
+        {
+          "month": "Desember",
+          "value": 41510
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Kalimantan Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 37560
+        },
+        {
+          "month": "Agustus",
+          "value": 37560
+        },
+        {
+          "month": "September",
+          "value": 38110
+        },
+        {
+          "month": "Oktober",
+          "value": 37760
+        },
+        {
+          "month": "November",
+          "value": 37850
+        },
+        {
+          "month": "Desember",
+          "value": 40230
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Kalimantan Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 13100
+        },
+        {
+          "month": "Agustus",
+          "value": 12970
+        },
+        {
+          "month": "September",
+          "value": 13060
+        },
+        {
+          "month": "Oktober",
+          "value": 12970
+        },
+        {
+          "month": "November",
+          "value": 12920
+        },
+        {
+          "month": "Desember",
+          "value": 13180
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Kalimantan Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 16540
+        },
+        {
+          "month": "Agustus",
+          "value": 16250
+        },
+        {
+          "month": "September",
+          "value": 16480
+        },
+        {
+          "month": "Oktober",
+          "value": 16270
+        },
+        {
+          "month": "November",
+          "value": 16370
+        },
+        {
+          "month": "Desember",
+          "value": 16220
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Kalimantan Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 13020
+        },
+        {
+          "month": "Agustus",
+          "value": 12810
+        },
+        {
+          "month": "September",
+          "value": 12910
+        },
+        {
+          "month": "Oktober",
+          "value": 12800
+        },
+        {
+          "month": "November",
+          "value": 12930
+        },
+        {
+          "month": "Desember",
+          "value": 12830
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Kalimantan Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 41190
+        },
+        {
+          "month": "Agustus",
+          "value": 31030
+        },
+        {
+          "month": "September",
+          "value": 38850
+        },
+        {
+          "month": "Oktober",
+          "value": 31220
+        },
+        {
+          "month": "November",
+          "value": 23160
+        },
+        {
+          "month": "Desember",
+          "value": 30260
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Kalimantan Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 45260
+        },
+        {
+          "month": "Agustus",
+          "value": 68960
+        },
+        {
+          "month": "September",
+          "value": 54780
+        },
+        {
+          "month": "Oktober",
+          "value": 42890
+        },
+        {
+          "month": "November",
+          "value": 35000
+        },
+        {
+          "month": "Desember",
+          "value": 39570
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Kalimantan Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 6850
+        },
+        {
+          "month": "Agustus",
+          "value": 7900
+        },
+        {
+          "month": "September",
+          "value": 8650
+        },
+        {
+          "month": "Oktober",
+          "value": 9110
+        },
+        {
+          "month": "November",
+          "value": 8150
+        },
+        {
+          "month": "Desember",
+          "value": 7590
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Kalimantan Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 42360
+        },
+        {
+          "month": "Agustus",
+          "value": 28360
+        },
+        {
+          "month": "September",
+          "value": 26310
+        },
+        {
+          "month": "Oktober",
+          "value": 29630
+        },
+        {
+          "month": "November",
+          "value": 32850
+        },
+        {
+          "month": "Desember",
+          "value": 46070
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Kalimantan Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 41700
+        },
+        {
+          "month": "Agustus",
+          "value": 39860
+        },
+        {
+          "month": "September",
+          "value": 39290
+        },
+        {
+          "month": "Oktober",
+          "value": 39540
+        },
+        {
+          "month": "November",
+          "value": 40110
+        },
+        {
+          "month": "Desember",
+          "value": 44390
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Kalimantan Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 14120
+        },
+        {
+          "month": "Agustus",
+          "value": 14120
+        },
+        {
+          "month": "September",
+          "value": 14090
+        },
+        {
+          "month": "Oktober",
+          "value": 14100
+        },
+        {
+          "month": "November",
+          "value": 14220
+        },
+        {
+          "month": "Desember",
+          "value": 14060
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Kalimantan Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 17500
+        },
+        {
+          "month": "Agustus",
+          "value": 17440
+        },
+        {
+          "month": "September",
+          "value": 17390
+        },
+        {
+          "month": "Oktober",
+          "value": 17270
+        },
+        {
+          "month": "November",
+          "value": 17330
+        },
+        {
+          "month": "Desember",
+          "value": 17330
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Kalimantan Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12980
+        },
+        {
+          "month": "Agustus",
+          "value": 13120
+        },
+        {
+          "month": "September",
+          "value": 13250
+        },
+        {
+          "month": "Oktober",
+          "value": 12970
+        },
+        {
+          "month": "November",
+          "value": 12900
+        },
+        {
+          "month": "Desember",
+          "value": 12790
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Kalimantan Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 62020
+        },
+        {
+          "month": "Agustus",
+          "value": 56520
+        },
+        {
+          "month": "September",
+          "value": 58050
+        },
+        {
+          "month": "Oktober",
+          "value": 53620
+        },
+        {
+          "month": "November",
+          "value": 45310
+        },
+        {
+          "month": "Desember",
+          "value": 47360
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Kalimantan Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 58470
+        },
+        {
+          "month": "Agustus",
+          "value": 82340
+        },
+        {
+          "month": "September",
+          "value": 64230
+        },
+        {
+          "month": "Oktober",
+          "value": 62200
+        },
+        {
+          "month": "November",
+          "value": 48360
+        },
+        {
+          "month": "Desember",
+          "value": 52050
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Kalimantan Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 6240
+        },
+        {
+          "month": "Agustus",
+          "value": 6240
+        },
+        {
+          "month": "September",
+          "value": 7750
+        },
+        {
+          "month": "Oktober",
+          "value": 8370
+        },
+        {
+          "month": "November",
+          "value": 8370
+        },
+        {
+          "month": "Desember",
+          "value": 8370
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Kalimantan Timur",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 40870
+        },
+        {
+          "month": "Agustus",
+          "value": 32150
+        },
+        {
+          "month": "September",
+          "value": 29520
+        },
+        {
+          "month": "Oktober",
+          "value": 32380
+        },
+        {
+          "month": "November",
+          "value": 34710
+        },
+        {
+          "month": "Desember",
+          "value": 44300
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Kalimantan Timur",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 44010
+        },
+        {
+          "month": "Agustus",
+          "value": 41510
+        },
+        {
+          "month": "September",
+          "value": 41170
+        },
+        {
+          "month": "Oktober",
+          "value": 41530
+        },
+        {
+          "month": "November",
+          "value": 41010
+        },
+        {
+          "month": "Desember",
+          "value": 44130
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Kalimantan Timur",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 15810
+        },
+        {
+          "month": "Agustus",
+          "value": 15680
+        },
+        {
+          "month": "September",
+          "value": 15530
+        },
+        {
+          "month": "Oktober",
+          "value": 15750
+        },
+        {
+          "month": "November",
+          "value": 15620
+        },
+        {
+          "month": "Desember",
+          "value": 15370
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Kalimantan Timur",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 17390
+        },
+        {
+          "month": "Agustus",
+          "value": 17370
+        },
+        {
+          "month": "September",
+          "value": 17240
+        },
+        {
+          "month": "Oktober",
+          "value": 17380
+        },
+        {
+          "month": "November",
+          "value": 17240
+        },
+        {
+          "month": "Desember",
+          "value": 17150
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Kalimantan Timur",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12320
+        },
+        {
+          "month": "Agustus",
+          "value": 12690
+        },
+        {
+          "month": "September",
+          "value": 12700
+        },
+        {
+          "month": "Oktober",
+          "value": 12650
+        },
+        {
+          "month": "November",
+          "value": 12510
+        },
+        {
+          "month": "Desember",
+          "value": 12700
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Kalimantan Timur",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 54840
+        },
+        {
+          "month": "Agustus",
+          "value": 45840
+        },
+        {
+          "month": "September",
+          "value": 48290
+        },
+        {
+          "month": "Oktober",
+          "value": 35590
+        },
+        {
+          "month": "November",
+          "value": 33930
+        },
+        {
+          "month": "Desember",
+          "value": 40830
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Kalimantan Timur",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 53290
+        },
+        {
+          "month": "Agustus",
+          "value": 75010
+        },
+        {
+          "month": "September",
+          "value": 48890
+        },
+        {
+          "month": "Oktober",
+          "value": 43390
+        },
+        {
+          "month": "November",
+          "value": 41100
+        },
+        {
+          "month": "Desember",
+          "value": 48070
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Kalimantan Timur",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 7220
+        },
+        {
+          "month": "Agustus",
+          "value": 8280
+        },
+        {
+          "month": "September",
+          "value": 8040
+        },
+        {
+          "month": "Oktober",
+          "value": 8280
+        },
+        {
+          "month": "November",
+          "value": 8210
+        },
+        {
+          "month": "Desember",
+          "value": 8010
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Kalimantan Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 48540
+        },
+        {
+          "month": "Agustus",
+          "value": 37880
+        },
+        {
+          "month": "September",
+          "value": 33190
+        },
+        {
+          "month": "Oktober",
+          "value": 35430
+        },
+        {
+          "month": "November",
+          "value": 39750
+        },
+        {
+          "month": "Desember",
+          "value": 50370
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Kalimantan Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 45110
+        },
+        {
+          "month": "Agustus",
+          "value": 44780
+        },
+        {
+          "month": "September",
+          "value": 42360
+        },
+        {
+          "month": "Oktober",
+          "value": 43330
+        },
+        {
+          "month": "November",
+          "value": 43520
+        },
+        {
+          "month": "Desember",
+          "value": 44130
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Kalimantan Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 15050
+        },
+        {
+          "month": "Agustus",
+          "value": 15390
+        },
+        {
+          "month": "September",
+          "value": 15430
+        },
+        {
+          "month": "Oktober",
+          "value": 15430
+        },
+        {
+          "month": "November",
+          "value": 15430
+        },
+        {
+          "month": "Desember",
+          "value": 15160
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Kalimantan Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 17060
+        },
+        {
+          "month": "Agustus",
+          "value": 17410
+        },
+        {
+          "month": "September",
+          "value": 17210
+        },
+        {
+          "month": "Oktober",
+          "value": 17410
+        },
+        {
+          "month": "November",
+          "value": 17280
+        },
+        {
+          "month": "Desember",
+          "value": 17360
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Kalimantan Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 13000
+        },
+        {
+          "month": "Agustus",
+          "value": 13120
+        },
+        {
+          "month": "September",
+          "value": 13050
+        },
+        {
+          "month": "Oktober",
+          "value": 13220
+        },
+        {
+          "month": "November",
+          "value": 13140
+        },
+        {
+          "month": "Desember",
+          "value": 12920
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Kalimantan Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 82230
+        },
+        {
+          "month": "Agustus",
+          "value": 70490
+        },
+        {
+          "month": "September",
+          "value": 68110
+        },
+        {
+          "month": "Oktober",
+          "value": 62340
+        },
+        {
+          "month": "November",
+          "value": 58990
+        },
+        {
+          "month": "Desember",
+          "value": 63140
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Kalimantan Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 78320
+        },
+        {
+          "month": "Agustus",
+          "value": 87780
+        },
+        {
+          "month": "September",
+          "value": 78830
+        },
+        {
+          "month": "Oktober",
+          "value": 74130
+        },
+        {
+          "month": "November",
+          "value": 70500
+        },
+        {
+          "month": "Desember",
+          "value": 70910
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Kalimantan Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 7100
+        },
+        {
+          "month": "Agustus",
+          "value": 7000
+        },
+        {
+          "month": "September",
+          "value": 6000
+        },
+        {
+          "month": "Oktober",
+          "value": 6500
+        },
+        {
+          "month": "November",
+          "value": 6070
+        },
+        {
+          "month": "Desember",
+          "value": 8600
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Kepulauan Bangka Belitung",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 41120
+        },
+        {
+          "month": "Agustus",
+          "value": 29010
+        },
+        {
+          "month": "September",
+          "value": 27160
+        },
+        {
+          "month": "Oktober",
+          "value": 30710
+        },
+        {
+          "month": "November",
+          "value": 32520
+        },
+        {
+          "month": "Desember",
+          "value": 43680
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Kepulauan Bangka Belitung",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 40800
+        },
+        {
+          "month": "Agustus",
+          "value": 39410
+        },
+        {
+          "month": "September",
+          "value": 39250
+        },
+        {
+          "month": "Oktober",
+          "value": 38930
+        },
+        {
+          "month": "November",
+          "value": 40100
+        },
+        {
+          "month": "Desember",
+          "value": 41890
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Kepulauan Bangka Belitung",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 14370
+        },
+        {
+          "month": "Agustus",
+          "value": 14260
+        },
+        {
+          "month": "September",
+          "value": 13770
+        },
+        {
+          "month": "Oktober",
+          "value": 14000
+        },
+        {
+          "month": "November",
+          "value": 13940
+        },
+        {
+          "month": "Desember",
+          "value": 13510
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Kepulauan Bangka Belitung",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 16240
+        },
+        {
+          "month": "Agustus",
+          "value": 16110
+        },
+        {
+          "month": "September",
+          "value": 15840
+        },
+        {
+          "month": "Oktober",
+          "value": 15860
+        },
+        {
+          "month": "November",
+          "value": 15780
+        },
+        {
+          "month": "Desember",
+          "value": 15570
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Kepulauan Bangka Belitung",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 13290
+        },
+        {
+          "month": "Agustus",
+          "value": 12860
+        },
+        {
+          "month": "September",
+          "value": 12600
+        },
+        {
+          "month": "Oktober",
+          "value": 12820
+        },
+        {
+          "month": "November",
+          "value": 12670
+        },
+        {
+          "month": "Desember",
+          "value": 12630
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Kepulauan Bangka Belitung",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 46930
+        },
+        {
+          "month": "Agustus",
+          "value": 50130
+        },
+        {
+          "month": "September",
+          "value": 43490
+        },
+        {
+          "month": "Oktober",
+          "value": 32950
+        },
+        {
+          "month": "November",
+          "value": 27790
+        },
+        {
+          "month": "Desember",
+          "value": 36790
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Kepulauan Bangka Belitung",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 50170
+        },
+        {
+          "month": "Agustus",
+          "value": 90630
+        },
+        {
+          "month": "September",
+          "value": 55650
+        },
+        {
+          "month": "Oktober",
+          "value": 60890
+        },
+        {
+          "month": "November",
+          "value": 51570
+        },
+        {
+          "month": "Desember",
+          "value": 37490
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Kepulauan Riau",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 40810
+        },
+        {
+          "month": "Agustus",
+          "value": 37980
+        },
+        {
+          "month": "September",
+          "value": 34580
+        },
+        {
+          "month": "Oktober",
+          "value": 36450
+        },
+        {
+          "month": "November",
+          "value": 37370
+        },
+        {
+          "month": "Desember",
+          "value": 43910
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Kepulauan Riau",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 36280
+        },
+        {
+          "month": "Agustus",
+          "value": 34670
+        },
+        {
+          "month": "September",
+          "value": 34710
+        },
+        {
+          "month": "Oktober",
+          "value": 34620
+        },
+        {
+          "month": "November",
+          "value": 34870
+        },
+        {
+          "month": "Desember",
+          "value": 37490
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Kepulauan Riau",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 14240
+        },
+        {
+          "month": "Agustus",
+          "value": 14060
+        },
+        {
+          "month": "September",
+          "value": 14030
+        },
+        {
+          "month": "Oktober",
+          "value": 13880
+        },
+        {
+          "month": "November",
+          "value": 13860
+        },
+        {
+          "month": "Desember",
+          "value": 13930
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Kepulauan Riau",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 16230
+        },
+        {
+          "month": "Agustus",
+          "value": 16390
+        },
+        {
+          "month": "September",
+          "value": 16170
+        },
+        {
+          "month": "Oktober",
+          "value": 16310
+        },
+        {
+          "month": "November",
+          "value": 16200
+        },
+        {
+          "month": "Desember",
+          "value": 16160
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Kepulauan Riau",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12910
+        },
+        {
+          "month": "Agustus",
+          "value": 12860
+        },
+        {
+          "month": "September",
+          "value": 12890
+        },
+        {
+          "month": "Oktober",
+          "value": 12880
+        },
+        {
+          "month": "November",
+          "value": 12770
+        },
+        {
+          "month": "Desember",
+          "value": 12560
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Kepulauan Riau",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 64390
+        },
+        {
+          "month": "Agustus",
+          "value": 62360
+        },
+        {
+          "month": "September",
+          "value": 60100
+        },
+        {
+          "month": "Oktober",
+          "value": 49020
+        },
+        {
+          "month": "November",
+          "value": 45060
+        },
+        {
+          "month": "Desember",
+          "value": 45790
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Kepulauan Riau",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 61150
+        },
+        {
+          "month": "Agustus",
+          "value": 85510
+        },
+        {
+          "month": "September",
+          "value": 69250
+        },
+        {
+          "month": "Oktober",
+          "value": 63760
+        },
+        {
+          "month": "November",
+          "value": 61200
+        },
+        {
+          "month": "Desember",
+          "value": 53490
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Kepulauan Riau",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 6600
+        },
+        {
+          "month": "Agustus",
+          "value": 6600
+        },
+        {
+          "month": "September",
+          "value": 6600
+        },
+        {
+          "month": "Oktober",
+          "value": 6930
+        },
+        {
+          "month": "November",
+          "value": 6970
+        },
+        {
+          "month": "Desember",
+          "value": 6970
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Lampung",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 32130
+        },
+        {
+          "month": "Agustus",
+          "value": 22140
+        },
+        {
+          "month": "September",
+          "value": 21490
+        },
+        {
+          "month": "Oktober",
+          "value": 24170
+        },
+        {
+          "month": "November",
+          "value": 29630
+        },
+        {
+          "month": "Desember",
+          "value": 35430
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Lampung",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 36840
+        },
+        {
+          "month": "Agustus",
+          "value": 36960
+        },
+        {
+          "month": "September",
+          "value": 37290
+        },
+        {
+          "month": "Oktober",
+          "value": 37060
+        },
+        {
+          "month": "November",
+          "value": 37130
+        },
+        {
+          "month": "Desember",
+          "value": 39020
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Lampung",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12560
+        },
+        {
+          "month": "Agustus",
+          "value": 12780
+        },
+        {
+          "month": "September",
+          "value": 13080
+        },
+        {
+          "month": "Oktober",
+          "value": 13150
+        },
+        {
+          "month": "November",
+          "value": 13090
+        },
+        {
+          "month": "Desember",
+          "value": 13030
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Lampung",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 14300
+        },
+        {
+          "month": "Agustus",
+          "value": 14520
+        },
+        {
+          "month": "September",
+          "value": 14590
+        },
+        {
+          "month": "Oktober",
+          "value": 14620
+        },
+        {
+          "month": "November",
+          "value": 14570
+        },
+        {
+          "month": "Desember",
+          "value": 14510
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Lampung",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12820
+        },
+        {
+          "month": "Agustus",
+          "value": 12160
+        },
+        {
+          "month": "September",
+          "value": 12180
+        },
+        {
+          "month": "Oktober",
+          "value": 12190
+        },
+        {
+          "month": "November",
+          "value": 12210
+        },
+        {
+          "month": "Desember",
+          "value": 12270
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Lampung",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 33180
+        },
+        {
+          "month": "Agustus",
+          "value": 40310
+        },
+        {
+          "month": "September",
+          "value": 33260
+        },
+        {
+          "month": "Oktober",
+          "value": 24510
+        },
+        {
+          "month": "November",
+          "value": 21540
+        },
+        {
+          "month": "Desember",
+          "value": 33370
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Lampung",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 41420
+        },
+        {
+          "month": "Agustus",
+          "value": 62590
+        },
+        {
+          "month": "September",
+          "value": 43160
+        },
+        {
+          "month": "Oktober",
+          "value": 40630
+        },
+        {
+          "month": "November",
+          "value": 36780
+        },
+        {
+          "month": "Desember",
+          "value": 34690
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Lampung",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 4780
+        },
+        {
+          "month": "Agustus",
+          "value": 4630
+        },
+        {
+          "month": "September",
+          "value": 4510
+        },
+        {
+          "month": "Oktober",
+          "value": 4780
+        },
+        {
+          "month": "November",
+          "value": 4530
+        },
+        {
+          "month": "Desember",
+          "value": 4920
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Maluku",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 46250
+        },
+        {
+          "month": "Agustus",
+          "value": 40510
+        },
+        {
+          "month": "September",
+          "value": 35880
+        },
+        {
+          "month": "Oktober",
+          "value": 34480
+        },
+        {
+          "month": "November",
+          "value": 37580
+        },
+        {
+          "month": "Desember",
+          "value": 46960
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Maluku",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 48150
+        },
+        {
+          "month": "Agustus",
+          "value": 46950
+        },
+        {
+          "month": "September",
+          "value": 45860
+        },
+        {
+          "month": "Oktober",
+          "value": 43670
+        },
+        {
+          "month": "November",
+          "value": 44690
+        },
+        {
+          "month": "Desember",
+          "value": 48770
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Maluku",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 14560
+        },
+        {
+          "month": "Agustus",
+          "value": 14700
+        },
+        {
+          "month": "September",
+          "value": 14520
+        },
+        {
+          "month": "Oktober",
+          "value": 14560
+        },
+        {
+          "month": "November",
+          "value": 14920
+        },
+        {
+          "month": "Desember",
+          "value": 14810
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Maluku",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 17750
+        },
+        {
+          "month": "Agustus",
+          "value": 17620
+        },
+        {
+          "month": "September",
+          "value": 17730
+        },
+        {
+          "month": "Oktober",
+          "value": 17450
+        },
+        {
+          "month": "November",
+          "value": 17500
+        },
+        {
+          "month": "Desember",
+          "value": 17510
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Maluku",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 13620
+        },
+        {
+          "month": "Agustus",
+          "value": 13470
+        },
+        {
+          "month": "September",
+          "value": 13590
+        },
+        {
+          "month": "Oktober",
+          "value": 13710
+        },
+        {
+          "month": "November",
+          "value": 13790
+        },
+        {
+          "month": "Desember",
+          "value": 13520
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Maluku",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 61130
+        },
+        {
+          "month": "Agustus",
+          "value": 76490
+        },
+        {
+          "month": "September",
+          "value": 67680
+        },
+        {
+          "month": "Oktober",
+          "value": 55860
+        },
+        {
+          "month": "November",
+          "value": 43460
+        },
+        {
+          "month": "Desember",
+          "value": 39500
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Maluku",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 57390
+        },
+        {
+          "month": "Agustus",
+          "value": 80750
+        },
+        {
+          "month": "September",
+          "value": 71130
+        },
+        {
+          "month": "Oktober",
+          "value": 61590
+        },
+        {
+          "month": "November",
+          "value": 55820
+        },
+        {
+          "month": "Desember",
+          "value": 49130
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Maluku",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 6990
+        },
+        {
+          "month": "Agustus",
+          "value": 8260
+        },
+        {
+          "month": "September",
+          "value": 8260
+        },
+        {
+          "month": "Oktober",
+          "value": 8930
+        },
+        {
+          "month": "November",
+          "value": 8760
+        },
+        {
+          "month": "Desember",
+          "value": 8850
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Maluku Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 59950
+        },
+        {
+          "month": "Agustus",
+          "value": 50920
+        },
+        {
+          "month": "September",
+          "value": 47340
+        },
+        {
+          "month": "Oktober",
+          "value": 48060
+        },
+        {
+          "month": "November",
+          "value": 49930
+        },
+        {
+          "month": "Desember",
+          "value": 57060
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Maluku Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 59950
+        },
+        {
+          "month": "Agustus",
+          "value": 58090
+        },
+        {
+          "month": "September",
+          "value": 55700
+        },
+        {
+          "month": "Oktober",
+          "value": 51950
+        },
+        {
+          "month": "November",
+          "value": 54150
+        },
+        {
+          "month": "Desember",
+          "value": 57130
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Maluku Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 16150
+        },
+        {
+          "month": "Agustus",
+          "value": 16020
+        },
+        {
+          "month": "September",
+          "value": 15840
+        },
+        {
+          "month": "Oktober",
+          "value": 15740
+        },
+        {
+          "month": "November",
+          "value": 15690
+        },
+        {
+          "month": "Desember",
+          "value": 15580
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Maluku Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 18040
+        },
+        {
+          "month": "Agustus",
+          "value": 18080
+        },
+        {
+          "month": "September",
+          "value": 17940
+        },
+        {
+          "month": "Oktober",
+          "value": 18070
+        },
+        {
+          "month": "November",
+          "value": 18050
+        },
+        {
+          "month": "Desember",
+          "value": 17870
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Maluku Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 13600
+        },
+        {
+          "month": "Agustus",
+          "value": 13630
+        },
+        {
+          "month": "September",
+          "value": 13250
+        },
+        {
+          "month": "Oktober",
+          "value": 13410
+        },
+        {
+          "month": "November",
+          "value": 13430
+        },
+        {
+          "month": "Desember",
+          "value": 13470
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Maluku Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 71200
+        },
+        {
+          "month": "Agustus",
+          "value": 66080
+        },
+        {
+          "month": "September",
+          "value": 62260
+        },
+        {
+          "month": "Oktober",
+          "value": 54650
+        },
+        {
+          "month": "November",
+          "value": 55080
+        },
+        {
+          "month": "Desember",
+          "value": 51600
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Maluku Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 76080
+        },
+        {
+          "month": "Agustus",
+          "value": 76100
+        },
+        {
+          "month": "September",
+          "value": 82270
+        },
+        {
+          "month": "Oktober",
+          "value": 77830
+        },
+        {
+          "month": "November",
+          "value": 72450
+        },
+        {
+          "month": "Desember",
+          "value": 78050
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Maluku Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 8000
+        },
+        {
+          "month": "Agustus",
+          "value": 10340
+        },
+        {
+          "month": "September",
+          "value": 10430
+        },
+        {
+          "month": "Oktober",
+          "value": 9770
+        },
+        {
+          "month": "November",
+          "value": 9770
+        },
+        {
+          "month": "Desember",
+          "value": 9690
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Nusa Tenggara Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 31200
+        },
+        {
+          "month": "Agustus",
+          "value": 18050
+        },
+        {
+          "month": "September",
+          "value": 18770
+        },
+        {
+          "month": "Oktober",
+          "value": 19640
+        },
+        {
+          "month": "November",
+          "value": 24310
+        },
+        {
+          "month": "Desember",
+          "value": 35620
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Nusa Tenggara Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 39830
+        },
+        {
+          "month": "Agustus",
+          "value": 38690
+        },
+        {
+          "month": "September",
+          "value": 38540
+        },
+        {
+          "month": "Oktober",
+          "value": 38250
+        },
+        {
+          "month": "November",
+          "value": 38800
+        },
+        {
+          "month": "Desember",
+          "value": 39040
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Nusa Tenggara Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12910
+        },
+        {
+          "month": "Agustus",
+          "value": 12780
+        },
+        {
+          "month": "September",
+          "value": 12750
+        },
+        {
+          "month": "Oktober",
+          "value": 13030
+        },
+        {
+          "month": "November",
+          "value": 13090
+        },
+        {
+          "month": "Desember",
+          "value": 13020
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Nusa Tenggara Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 14600
+        },
+        {
+          "month": "Agustus",
+          "value": 14500
+        },
+        {
+          "month": "September",
+          "value": 14750
+        },
+        {
+          "month": "Oktober",
+          "value": 15030
+        },
+        {
+          "month": "November",
+          "value": 15030
+        },
+        {
+          "month": "Desember",
+          "value": 14980
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Nusa Tenggara Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12500
+        },
+        {
+          "month": "Agustus",
+          "value": 12500
+        },
+        {
+          "month": "September",
+          "value": 12300
+        },
+        {
+          "month": "Oktober",
+          "value": 12270
+        },
+        {
+          "month": "November",
+          "value": 12310
+        },
+        {
+          "month": "Desember",
+          "value": 12270
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Nusa Tenggara Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 40960
+        },
+        {
+          "month": "Agustus",
+          "value": 45120
+        },
+        {
+          "month": "September",
+          "value": 29670
+        },
+        {
+          "month": "Oktober",
+          "value": 22360
+        },
+        {
+          "month": "November",
+          "value": 22400
+        },
+        {
+          "month": "Desember",
+          "value": 30590
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Nusa Tenggara Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 34680
+        },
+        {
+          "month": "Agustus",
+          "value": 65820
+        },
+        {
+          "month": "September",
+          "value": 33150
+        },
+        {
+          "month": "Oktober",
+          "value": 29570
+        },
+        {
+          "month": "November",
+          "value": 28880
+        },
+        {
+          "month": "Desember",
+          "value": 27160
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Nusa Tenggara Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 3950
+        },
+        {
+          "month": "Agustus",
+          "value": 4160
+        },
+        {
+          "month": "September",
+          "value": 4470
+        },
+        {
+          "month": "Oktober",
+          "value": 4410
+        },
+        {
+          "month": "November",
+          "value": 4640
+        },
+        {
+          "month": "Desember",
+          "value": 4740
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Nusa Tenggara Timur",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 34520
+        },
+        {
+          "month": "Agustus",
+          "value": 21660
+        },
+        {
+          "month": "September",
+          "value": 21710
+        },
+        {
+          "month": "Oktober",
+          "value": 19670
+        },
+        {
+          "month": "November",
+          "value": 20720
+        },
+        {
+          "month": "Desember",
+          "value": 31940
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Nusa Tenggara Timur",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 44630
+        },
+        {
+          "month": "Agustus",
+          "value": 40280
+        },
+        {
+          "month": "September",
+          "value": 40610
+        },
+        {
+          "month": "Oktober",
+          "value": 40350
+        },
+        {
+          "month": "November",
+          "value": 41820
+        },
+        {
+          "month": "Desember",
+          "value": 45450
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Nusa Tenggara Timur",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 13300
+        },
+        {
+          "month": "Agustus",
+          "value": 13210
+        },
+        {
+          "month": "September",
+          "value": 13450
+        },
+        {
+          "month": "Oktober",
+          "value": 13490
+        },
+        {
+          "month": "November",
+          "value": 13600
+        },
+        {
+          "month": "Desember",
+          "value": 13450
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Nusa Tenggara Timur",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 15690
+        },
+        {
+          "month": "Agustus",
+          "value": 15650
+        },
+        {
+          "month": "September",
+          "value": 15670
+        },
+        {
+          "month": "Oktober",
+          "value": 15710
+        },
+        {
+          "month": "November",
+          "value": 15910
+        },
+        {
+          "month": "Desember",
+          "value": 15360
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Nusa Tenggara Timur",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12830
+        },
+        {
+          "month": "Agustus",
+          "value": 12850
+        },
+        {
+          "month": "September",
+          "value": 12830
+        },
+        {
+          "month": "Oktober",
+          "value": 12850
+        },
+        {
+          "month": "November",
+          "value": 12940
+        },
+        {
+          "month": "Desember",
+          "value": 12880
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Nusa Tenggara Timur",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 54780
+        },
+        {
+          "month": "Agustus",
+          "value": 55570
+        },
+        {
+          "month": "September",
+          "value": 52150
+        },
+        {
+          "month": "Oktober",
+          "value": 44810
+        },
+        {
+          "month": "November",
+          "value": 47800
+        },
+        {
+          "month": "Desember",
+          "value": 42520
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Nusa Tenggara Timur",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 41450
+        },
+        {
+          "month": "Agustus",
+          "value": 49220
+        },
+        {
+          "month": "September",
+          "value": 43970
+        },
+        {
+          "month": "Oktober",
+          "value": 36400
+        },
+        {
+          "month": "November",
+          "value": 34730
+        },
+        {
+          "month": "Desember",
+          "value": 34690
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Nusa Tenggara Timur",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 6730
+        },
+        {
+          "month": "Agustus",
+          "value": 7130
+        },
+        {
+          "month": "September",
+          "value": 7200
+        },
+        {
+          "month": "Oktober",
+          "value": 6750
+        },
+        {
+          "month": "November",
+          "value": 7260
+        },
+        {
+          "month": "Desember",
+          "value": 6520
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Papua",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 61310
+        },
+        {
+          "month": "Agustus",
+          "value": 53250
+        },
+        {
+          "month": "September",
+          "value": 48360
+        },
+        {
+          "month": "Oktober",
+          "value": 48320
+        },
+        {
+          "month": "November",
+          "value": 51740
+        },
+        {
+          "month": "Desember",
+          "value": 59750
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Papua",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 55430
+        },
+        {
+          "month": "Agustus",
+          "value": 52500
+        },
+        {
+          "month": "September",
+          "value": 50400
+        },
+        {
+          "month": "Oktober",
+          "value": 51340
+        },
+        {
+          "month": "November",
+          "value": 53640
+        },
+        {
+          "month": "Desember",
+          "value": 55230
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Papua",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 15380
+        },
+        {
+          "month": "Agustus",
+          "value": 15580
+        },
+        {
+          "month": "September",
+          "value": 15510
+        },
+        {
+          "month": "Oktober",
+          "value": 15510
+        },
+        {
+          "month": "November",
+          "value": 15640
+        },
+        {
+          "month": "Desember",
+          "value": 15450
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Papua",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 17860
+        },
+        {
+          "month": "Agustus",
+          "value": 18050
+        },
+        {
+          "month": "September",
+          "value": 17940
+        },
+        {
+          "month": "Oktober",
+          "value": 17990
+        },
+        {
+          "month": "November",
+          "value": 18260
+        },
+        {
+          "month": "Desember",
+          "value": 17940
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Papua",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 13750
+        },
+        {
+          "month": "Agustus",
+          "value": 13920
+        },
+        {
+          "month": "September",
+          "value": 13970
+        },
+        {
+          "month": "Oktober",
+          "value": 13380
+        },
+        {
+          "month": "November",
+          "value": 13420
+        },
+        {
+          "month": "Desember",
+          "value": 13250
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Papua",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 102510
+        },
+        {
+          "month": "Agustus",
+          "value": 75620
+        },
+        {
+          "month": "September",
+          "value": 69170
+        },
+        {
+          "month": "Oktober",
+          "value": 62110
+        },
+        {
+          "month": "November",
+          "value": 42580
+        },
+        {
+          "month": "Desember",
+          "value": 51420
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Papua",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 92280
+        },
+        {
+          "month": "Agustus",
+          "value": 98400
+        },
+        {
+          "month": "September",
+          "value": 88810
+        },
+        {
+          "month": "Oktober",
+          "value": 83050
+        },
+        {
+          "month": "November",
+          "value": 56970
+        },
+        {
+          "month": "Desember",
+          "value": 82310
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Papua",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 6960
+        },
+        {
+          "month": "Agustus",
+          "value": 7490
+        },
+        {
+          "month": "September",
+          "value": 7490
+        },
+        {
+          "month": "Oktober",
+          "value": 7760
+        },
+        {
+          "month": "November",
+          "value": 7320
+        },
+        {
+          "month": "Desember",
+          "value": 7630
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Papua Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 58990
+        },
+        {
+          "month": "Agustus",
+          "value": 54140
+        },
+        {
+          "month": "September",
+          "value": 54370
+        },
+        {
+          "month": "Oktober",
+          "value": 49960
+        },
+        {
+          "month": "November",
+          "value": 48340
+        },
+        {
+          "month": "Desember",
+          "value": 57770
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Papua Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 58440
+        },
+        {
+          "month": "Agustus",
+          "value": 52450
+        },
+        {
+          "month": "September",
+          "value": 53350
+        },
+        {
+          "month": "Oktober",
+          "value": 50850
+        },
+        {
+          "month": "November",
+          "value": 51440
+        },
+        {
+          "month": "Desember",
+          "value": 57770
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Papua Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 15570
+        },
+        {
+          "month": "Agustus",
+          "value": 15570
+        },
+        {
+          "month": "September",
+          "value": 16230
+        },
+        {
+          "month": "Oktober",
+          "value": 15570
+        },
+        {
+          "month": "November",
+          "value": 15710
+        },
+        {
+          "month": "Desember",
+          "value": 16110
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Papua Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 18400
+        },
+        {
+          "month": "Agustus",
+          "value": 18320
+        },
+        {
+          "month": "September",
+          "value": 18380
+        },
+        {
+          "month": "Oktober",
+          "value": 18320
+        },
+        {
+          "month": "November",
+          "value": 18380
+        },
+        {
+          "month": "Desember",
+          "value": 18480
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Papua Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12750
+        },
+        {
+          "month": "Agustus",
+          "value": 13000
+        },
+        {
+          "month": "September",
+          "value": 13000
+        },
+        {
+          "month": "Oktober",
+          "value": 13000
+        },
+        {
+          "month": "November",
+          "value": 13250
+        },
+        {
+          "month": "Desember",
+          "value": 13250
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Papua Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 74020
+        },
+        {
+          "month": "Agustus",
+          "value": 84880
+        },
+        {
+          "month": "September",
+          "value": 81810
+        },
+        {
+          "month": "Oktober",
+          "value": 62840
+        },
+        {
+          "month": "November",
+          "value": 59790
+        },
+        {
+          "month": "Desember",
+          "value": 53130
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Papua Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 81820
+        },
+        {
+          "month": "Agustus",
+          "value": 92290
+        },
+        {
+          "month": "September",
+          "value": 93220
+        },
+        {
+          "month": "Oktober",
+          "value": 80880
+        },
+        {
+          "month": "November",
+          "value": 74870
+        },
+        {
+          "month": "Desember",
+          "value": 68310
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Papua Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 6840
+        },
+        {
+          "month": "Agustus",
+          "value": 8660
+        },
+        {
+          "month": "September",
+          "value": 8830
+        },
+        {
+          "month": "Oktober",
+          "value": 9690
+        },
+        {
+          "month": "November",
+          "value": 9210
+        },
+        {
+          "month": "Desember",
+          "value": 10130
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Papua Barat Daya",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 56500
+        },
+        {
+          "month": "Agustus",
+          "value": 55140
+        },
+        {
+          "month": "September",
+          "value": 45350
+        },
+        {
+          "month": "Oktober",
+          "value": 49240
+        },
+        {
+          "month": "November",
+          "value": 50290
+        },
+        {
+          "month": "Desember",
+          "value": 58070
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Papua Barat Daya",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 58220
+        },
+        {
+          "month": "Agustus",
+          "value": 54810
+        },
+        {
+          "month": "September",
+          "value": 52360
+        },
+        {
+          "month": "Oktober",
+          "value": 53040
+        },
+        {
+          "month": "November",
+          "value": 53860
+        },
+        {
+          "month": "Desember",
+          "value": 54210
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Papua Barat Daya",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 15970
+        },
+        {
+          "month": "Agustus",
+          "value": 15750
+        },
+        {
+          "month": "September",
+          "value": 15910
+        },
+        {
+          "month": "Oktober",
+          "value": 15650
+        },
+        {
+          "month": "November",
+          "value": 16010
+        },
+        {
+          "month": "Desember",
+          "value": 15850
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Papua Barat Daya",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 18060
+        },
+        {
+          "month": "Agustus",
+          "value": 17580
+        },
+        {
+          "month": "September",
+          "value": 18040
+        },
+        {
+          "month": "Oktober",
+          "value": 17850
+        },
+        {
+          "month": "November",
+          "value": 18260
+        },
+        {
+          "month": "Desember",
+          "value": 18050
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Papua Barat Daya",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 15000
+        },
+        {
+          "month": "Agustus",
+          "value": 13590
+        },
+        {
+          "month": "September",
+          "value": 13470
+        },
+        {
+          "month": "Oktober",
+          "value": 13490
+        },
+        {
+          "month": "November",
+          "value": 13590
+        },
+        {
+          "month": "Desember",
+          "value": 13290
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Papua Barat Daya",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 76200
+        },
+        {
+          "month": "Agustus",
+          "value": 78640
+        },
+        {
+          "month": "September",
+          "value": 72580
+        },
+        {
+          "month": "Oktober",
+          "value": 60820
+        },
+        {
+          "month": "November",
+          "value": 62460
+        },
+        {
+          "month": "Desember",
+          "value": 59480
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Papua Barat Daya",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 75770
+        },
+        {
+          "month": "Agustus",
+          "value": 96420
+        },
+        {
+          "month": "September",
+          "value": 73020
+        },
+        {
+          "month": "Oktober",
+          "value": 73810
+        },
+        {
+          "month": "November",
+          "value": 69940
+        },
+        {
+          "month": "Desember",
+          "value": 71060
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Papua Barat Daya",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 6380
+        },
+        {
+          "month": "Agustus",
+          "value": 9350
+        },
+        {
+          "month": "September",
+          "value": 9040
+        },
+        {
+          "month": "Oktober",
+          "value": 9210
+        },
+        {
+          "month": "November",
+          "value": 8270
+        },
+        {
+          "month": "Desember",
+          "value": 8270
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Papua Pegunungan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 83430
+        },
+        {
+          "month": "Agustus",
+          "value": 70940
+        },
+        {
+          "month": "September",
+          "value": 60000
+        },
+        {
+          "month": "Oktober",
+          "value": 69520
+        },
+        {
+          "month": "November",
+          "value": 62450
+        },
+        {
+          "month": "Desember",
+          "value": 67820
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Papua Pegunungan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 73620
+        },
+        {
+          "month": "Agustus",
+          "value": 67080
+        },
+        {
+          "month": "September",
+          "value": 60000
+        },
+        {
+          "month": "Oktober",
+          "value": 60000
+        },
+        {
+          "month": "November",
+          "value": 60000
+        },
+        {
+          "month": "Desember",
+          "value": 69280
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras",
+      "Provinsi": "Papua Pegunungan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 15000
+        },
+        {
+          "month": "Agustus",
+          "value": 15000
+        },
+        {
+          "month": "September",
+          "value": 15000
+        },
+        {
+          "month": "Oktober",
+          "value": 15000
+        },
+        {
+          "month": "November",
+          "value": 17000
+        },
+        {
+          "month": "Desember",
+          "value": 17000
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Papua Pegunungan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 18000
+        },
+        {
+          "month": "Agustus",
+          "value": 18000
+        },
+        {
+          "month": "September",
+          "value": 18000
+        },
+        {
+          "month": "Oktober",
+          "value": 18000
+        },
+        {
+          "month": "November",
+          "value": 19000
+        },
+        {
+          "month": "Desember",
+          "value": 20000
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Papua Pegunungan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 20000
+        },
+        {
+          "month": "Agustus",
+          "value": 20000
+        },
+        {
+          "month": "September",
+          "value": 20000
+        },
+        {
+          "month": "Oktober",
+          "value": 20000
+        },
+        {
+          "month": "November",
+          "value": 23000
+        },
+        {
+          "month": "Desember",
+          "value": 25000
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Papua Pegunungan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 109970
+        },
+        {
+          "month": "Agustus",
+          "value": 107240
+        },
+        {
+          "month": "September",
+          "value": 95000
+        },
+        {
+          "month": "Oktober",
+          "value": 90000
+        },
+        {
+          "month": "November",
+          "value": 70000
+        },
+        {
+          "month": "Desember",
+          "value": 84850
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Papua Pegunungan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 115980
+        },
+        {
+          "month": "Agustus",
+          "value": 120620
+        },
+        {
+          "month": "September",
+          "value": 100000
+        },
+        {
+          "month": "Oktober",
+          "value": 109540
+        },
+        {
+          "month": "November",
+          "value": 70000
+        },
+        {
+          "month": "Desember",
+          "value": 87590
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Papua Pegunungan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 7480
+        },
+        {
+          "month": "Agustus",
+          "value": 7790
+        },
+        {
+          "month": "September",
+          "value": 8280
+        },
+        {
+          "month": "Oktober",
+          "value": 8300
+        },
+        {
+          "month": "November",
+          "value": 8100
+        },
+        {
+          "month": "Desember",
+          "value": 8450
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Papua Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 50000
+        },
+        {
+          "month": "Agustus",
+          "value": 47430
+        },
+        {
+          "month": "September",
+          "value": 32400
+        },
+        {
+          "month": "Oktober",
+          "value": 37420
+        },
+        {
+          "month": "November",
+          "value": 35000
+        },
+        {
+          "month": "Desember",
+          "value": 50000
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Papua Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 50000
+        },
+        {
+          "month": "Agustus",
+          "value": 47430
+        },
+        {
+          "month": "September",
+          "value": 45000
+        },
+        {
+          "month": "Oktober",
+          "value": 47430
+        },
+        {
+          "month": "November",
+          "value": 40000
+        },
+        {
+          "month": "Desember",
+          "value": 50000
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras",
+      "Provinsi": "Papua Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 14000
+        },
+        {
+          "month": "Agustus",
+          "value": 13700
+        },
+        {
+          "month": "September",
+          "value": 12600
+        },
+        {
+          "month": "Oktober",
+          "value": 13400
+        },
+        {
+          "month": "November",
+          "value": 15200
+        },
+        {
+          "month": "Desember",
+          "value": 17900
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Papua Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 13000
+        },
+        {
+          "month": "Agustus",
+          "value": 15000
+        },
+        {
+          "month": "September",
+          "value": 15000
+        },
+        {
+          "month": "Oktober",
+          "value": 15000
+        },
+        {
+          "month": "November",
+          "value": 15000
+        },
+        {
+          "month": "Desember",
+          "value": 15000
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Papua Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 15000
+        },
+        {
+          "month": "Agustus",
+          "value": 16490
+        },
+        {
+          "month": "September",
+          "value": 16490
+        },
+        {
+          "month": "Oktober",
+          "value": 16970
+        },
+        {
+          "month": "November",
+          "value": 16000
+        },
+        {
+          "month": "Desember",
+          "value": 16000
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Papua Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 14000
+        },
+        {
+          "month": "Agustus",
+          "value": 13250
+        },
+        {
+          "month": "September",
+          "value": 13250
+        },
+        {
+          "month": "Oktober",
+          "value": 13250
+        },
+        {
+          "month": "November",
+          "value": 13500
+        },
+        {
+          "month": "Desember",
+          "value": 13500
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Papua Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 45000
+        },
+        {
+          "month": "Agustus",
+          "value": 82160
+        },
+        {
+          "month": "September",
+          "value": 41830
+        },
+        {
+          "month": "Oktober",
+          "value": 35000
+        },
+        {
+          "month": "November",
+          "value": 30000
+        },
+        {
+          "month": "Desember",
+          "value": 40000
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Papua Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 40000
+        },
+        {
+          "month": "Agustus",
+          "value": 77460
+        },
+        {
+          "month": "September",
+          "value": 54770
+        },
+        {
+          "month": "Oktober",
+          "value": 38730
+        },
+        {
+          "month": "November",
+          "value": 45000
+        },
+        {
+          "month": "Desember",
+          "value": 60000
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Papua Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 7000
+        },
+        {
+          "month": "Agustus",
+          "value": 12000
+        },
+        {
+          "month": "September",
+          "value": 12000
+        },
+        {
+          "month": "Oktober",
+          "value": 12000
+        },
+        {
+          "month": "November",
+          "value": 12000
+        },
+        {
+          "month": "Desember",
+          "value": 12000
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Papua Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 73610
+        },
+        {
+          "month": "Agustus",
+          "value": 67040
+        },
+        {
+          "month": "September",
+          "value": 54000
+        },
+        {
+          "month": "Oktober",
+          "value": 48740
+        },
+        {
+          "month": "November",
+          "value": 56740
+        },
+        {
+          "month": "Desember",
+          "value": 57590
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Papua Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 69800
+        },
+        {
+          "month": "Agustus",
+          "value": 67580
+        },
+        {
+          "month": "September",
+          "value": 60190
+        },
+        {
+          "month": "Oktober",
+          "value": 54650
+        },
+        {
+          "month": "November",
+          "value": 54470
+        },
+        {
+          "month": "Desember",
+          "value": 53870
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Papua Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 15650
+        },
+        {
+          "month": "Agustus",
+          "value": 15980
+        },
+        {
+          "month": "September",
+          "value": 15810
+        },
+        {
+          "month": "Oktober",
+          "value": 16370
+        },
+        {
+          "month": "November",
+          "value": 16440
+        },
+        {
+          "month": "Desember",
+          "value": 16120
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Papua Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 18960
+        },
+        {
+          "month": "Agustus",
+          "value": 18770
+        },
+        {
+          "month": "September",
+          "value": 18470
+        },
+        {
+          "month": "Oktober",
+          "value": 19070
+        },
+        {
+          "month": "November",
+          "value": 19130
+        },
+        {
+          "month": "Desember",
+          "value": 18390
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Papua Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 13370
+        },
+        {
+          "month": "Agustus",
+          "value": 13660
+        },
+        {
+          "month": "September",
+          "value": 13400
+        },
+        {
+          "month": "Oktober",
+          "value": 13500
+        },
+        {
+          "month": "November",
+          "value": 13500
+        },
+        {
+          "month": "Desember",
+          "value": 13500
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Papua Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 96630
+        },
+        {
+          "month": "Agustus",
+          "value": 105790
+        },
+        {
+          "month": "September",
+          "value": 71140
+        },
+        {
+          "month": "Oktober",
+          "value": 68820
+        },
+        {
+          "month": "November",
+          "value": 56920
+        },
+        {
+          "month": "Desember",
+          "value": 60360
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Papua Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 125310
+        },
+        {
+          "month": "Agustus",
+          "value": 137260
+        },
+        {
+          "month": "September",
+          "value": 92520
+        },
+        {
+          "month": "Oktober",
+          "value": 101180
+        },
+        {
+          "month": "November",
+          "value": 89100
+        },
+        {
+          "month": "Desember",
+          "value": 75530
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Papua Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 7030
+        },
+        {
+          "month": "Agustus",
+          "value": 6870
+        },
+        {
+          "month": "September",
+          "value": 6900
+        },
+        {
+          "month": "Oktober",
+          "value": 6800
+        },
+        {
+          "month": "November",
+          "value": 6800
+        },
+        {
+          "month": "Desember",
+          "value": 6800
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Riau",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 42440
+        },
+        {
+          "month": "Agustus",
+          "value": 25650
+        },
+        {
+          "month": "September",
+          "value": 24170
+        },
+        {
+          "month": "Oktober",
+          "value": 28920
+        },
+        {
+          "month": "November",
+          "value": 30830
+        },
+        {
+          "month": "Desember",
+          "value": 33690
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Riau",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 38870
+        },
+        {
+          "month": "Agustus",
+          "value": 37920
+        },
+        {
+          "month": "September",
+          "value": 38210
+        },
+        {
+          "month": "Oktober",
+          "value": 38400
+        },
+        {
+          "month": "November",
+          "value": 39200
+        },
+        {
+          "month": "Desember",
+          "value": 40450
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Riau",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 13880
+        },
+        {
+          "month": "Agustus",
+          "value": 13810
+        },
+        {
+          "month": "September",
+          "value": 13810
+        },
+        {
+          "month": "Oktober",
+          "value": 14000
+        },
+        {
+          "month": "November",
+          "value": 14050
+        },
+        {
+          "month": "Desember",
+          "value": 13950
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Riau",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 16110
+        },
+        {
+          "month": "Agustus",
+          "value": 16050
+        },
+        {
+          "month": "September",
+          "value": 16070
+        },
+        {
+          "month": "Oktober",
+          "value": 16250
+        },
+        {
+          "month": "November",
+          "value": 16250
+        },
+        {
+          "month": "Desember",
+          "value": 16060
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Riau",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 13140
+        },
+        {
+          "month": "Agustus",
+          "value": 13120
+        },
+        {
+          "month": "September",
+          "value": 13100
+        },
+        {
+          "month": "Oktober",
+          "value": 13110
+        },
+        {
+          "month": "November",
+          "value": 12940
+        },
+        {
+          "month": "Desember",
+          "value": 13020
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Riau",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 51670
+        },
+        {
+          "month": "Agustus",
+          "value": 46470
+        },
+        {
+          "month": "September",
+          "value": 47150
+        },
+        {
+          "month": "Oktober",
+          "value": 36170
+        },
+        {
+          "month": "November",
+          "value": 39910
+        },
+        {
+          "month": "Desember",
+          "value": 38390
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Riau",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 57670
+        },
+        {
+          "month": "Agustus",
+          "value": 76600
+        },
+        {
+          "month": "September",
+          "value": 58860
+        },
+        {
+          "month": "Oktober",
+          "value": 56960
+        },
+        {
+          "month": "November",
+          "value": 50580
+        },
+        {
+          "month": "Desember",
+          "value": 45950
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Riau",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 5900
+        },
+        {
+          "month": "Agustus",
+          "value": 5830
+        },
+        {
+          "month": "September",
+          "value": 5770
+        },
+        {
+          "month": "Oktober",
+          "value": 5880
+        },
+        {
+          "month": "November",
+          "value": 5800
+        },
+        {
+          "month": "Desember",
+          "value": 5770
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Sulawesi Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 35860
+        },
+        {
+          "month": "Agustus",
+          "value": 25540
+        },
+        {
+          "month": "September",
+          "value": 22310
+        },
+        {
+          "month": "Oktober",
+          "value": 31430
+        },
+        {
+          "month": "November",
+          "value": 33460
+        },
+        {
+          "month": "Desember",
+          "value": 43100
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Sulawesi Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 42170
+        },
+        {
+          "month": "Agustus",
+          "value": 38770
+        },
+        {
+          "month": "September",
+          "value": 41920
+        },
+        {
+          "month": "Oktober",
+          "value": 40310
+        },
+        {
+          "month": "November",
+          "value": 40930
+        },
+        {
+          "month": "Desember",
+          "value": 41530
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Sulawesi Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 13480
+        },
+        {
+          "month": "Agustus",
+          "value": 13260
+        },
+        {
+          "month": "September",
+          "value": 12960
+        },
+        {
+          "month": "Oktober",
+          "value": 13020
+        },
+        {
+          "month": "November",
+          "value": 12980
+        },
+        {
+          "month": "Desember",
+          "value": 12970
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Sulawesi Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 14570
+        },
+        {
+          "month": "Agustus",
+          "value": 14640
+        },
+        {
+          "month": "September",
+          "value": 14400
+        },
+        {
+          "month": "Oktober",
+          "value": 14320
+        },
+        {
+          "month": "November",
+          "value": 14250
+        },
+        {
+          "month": "Desember",
+          "value": 14440
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Sulawesi Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 11940
+        },
+        {
+          "month": "Agustus",
+          "value": 12030
+        },
+        {
+          "month": "September",
+          "value": 12070
+        },
+        {
+          "month": "Oktober",
+          "value": 12120
+        },
+        {
+          "month": "November",
+          "value": 11880
+        },
+        {
+          "month": "Desember",
+          "value": 11860
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Sulawesi Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 35740
+        },
+        {
+          "month": "Agustus",
+          "value": 36740
+        },
+        {
+          "month": "September",
+          "value": 41550
+        },
+        {
+          "month": "Oktober",
+          "value": 27870
+        },
+        {
+          "month": "November",
+          "value": 26510
+        },
+        {
+          "month": "Desember",
+          "value": 27480
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Sulawesi Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 44940
+        },
+        {
+          "month": "Agustus",
+          "value": 53260
+        },
+        {
+          "month": "September",
+          "value": 44800
+        },
+        {
+          "month": "Oktober",
+          "value": 40320
+        },
+        {
+          "month": "November",
+          "value": 34960
+        },
+        {
+          "month": "Desember",
+          "value": 36050
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Sulawesi Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 7000
+        },
+        {
+          "month": "Agustus",
+          "value": 4000
+        },
+        {
+          "month": "September",
+          "value": 4500
+        },
+        {
+          "month": "Oktober",
+          "value": 4730
+        },
+        {
+          "month": "November",
+          "value": 5000
+        },
+        {
+          "month": "Desember",
+          "value": 6000
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Sulawesi Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 33650
+        },
+        {
+          "month": "Agustus",
+          "value": 23880
+        },
+        {
+          "month": "September",
+          "value": 21580
+        },
+        {
+          "month": "Oktober",
+          "value": 26920
+        },
+        {
+          "month": "November",
+          "value": 30080
+        },
+        {
+          "month": "Desember",
+          "value": 41560
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Sulawesi Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 40700
+        },
+        {
+          "month": "Agustus",
+          "value": 40030
+        },
+        {
+          "month": "September",
+          "value": 39410
+        },
+        {
+          "month": "Oktober",
+          "value": 40670
+        },
+        {
+          "month": "November",
+          "value": 40510
+        },
+        {
+          "month": "Desember",
+          "value": 42020
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Sulawesi Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12690
+        },
+        {
+          "month": "Agustus",
+          "value": 12720
+        },
+        {
+          "month": "September",
+          "value": 12600
+        },
+        {
+          "month": "Oktober",
+          "value": 12560
+        },
+        {
+          "month": "November",
+          "value": 12480
+        },
+        {
+          "month": "Desember",
+          "value": 12320
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Sulawesi Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 14660
+        },
+        {
+          "month": "Agustus",
+          "value": 14730
+        },
+        {
+          "month": "September",
+          "value": 14530
+        },
+        {
+          "month": "Oktober",
+          "value": 14500
+        },
+        {
+          "month": "November",
+          "value": 14360
+        },
+        {
+          "month": "Desember",
+          "value": 14250
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Sulawesi Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12160
+        },
+        {
+          "month": "Agustus",
+          "value": 12170
+        },
+        {
+          "month": "September",
+          "value": 12180
+        },
+        {
+          "month": "Oktober",
+          "value": 12140
+        },
+        {
+          "month": "November",
+          "value": 12100
+        },
+        {
+          "month": "Desember",
+          "value": 12140
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Sulawesi Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 33510
+        },
+        {
+          "month": "Agustus",
+          "value": 34140
+        },
+        {
+          "month": "September",
+          "value": 32620
+        },
+        {
+          "month": "Oktober",
+          "value": 25500
+        },
+        {
+          "month": "November",
+          "value": 23040
+        },
+        {
+          "month": "Desember",
+          "value": 22880
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Sulawesi Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 32480
+        },
+        {
+          "month": "Agustus",
+          "value": 55140
+        },
+        {
+          "month": "September",
+          "value": 32500
+        },
+        {
+          "month": "Oktober",
+          "value": 26410
+        },
+        {
+          "month": "November",
+          "value": 27350
+        },
+        {
+          "month": "Desember",
+          "value": 24610
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Sulawesi Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 5230
+        },
+        {
+          "month": "Agustus",
+          "value": 5000
+        },
+        {
+          "month": "September",
+          "value": 5190
+        },
+        {
+          "month": "Oktober",
+          "value": 5470
+        },
+        {
+          "month": "November",
+          "value": 5260
+        },
+        {
+          "month": "Desember",
+          "value": 5210
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Sulawesi Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 42230
+        },
+        {
+          "month": "Agustus",
+          "value": 31810
+        },
+        {
+          "month": "September",
+          "value": 26790
+        },
+        {
+          "month": "Oktober",
+          "value": 33970
+        },
+        {
+          "month": "November",
+          "value": 36960
+        },
+        {
+          "month": "Desember",
+          "value": 49550
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Sulawesi Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 48210
+        },
+        {
+          "month": "Agustus",
+          "value": 43580
+        },
+        {
+          "month": "September",
+          "value": 45250
+        },
+        {
+          "month": "Oktober",
+          "value": 44950
+        },
+        {
+          "month": "November",
+          "value": 45740
+        },
+        {
+          "month": "Desember",
+          "value": 48090
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Sulawesi Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 13220
+        },
+        {
+          "month": "Agustus",
+          "value": 13510
+        },
+        {
+          "month": "September",
+          "value": 13470
+        },
+        {
+          "month": "Oktober",
+          "value": 13380
+        },
+        {
+          "month": "November",
+          "value": 13330
+        },
+        {
+          "month": "Desember",
+          "value": 13130
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Sulawesi Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 15550
+        },
+        {
+          "month": "Agustus",
+          "value": 15520
+        },
+        {
+          "month": "September",
+          "value": 15660
+        },
+        {
+          "month": "Oktober",
+          "value": 15500
+        },
+        {
+          "month": "November",
+          "value": 15210
+        },
+        {
+          "month": "Desember",
+          "value": 15060
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Sulawesi Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12090
+        },
+        {
+          "month": "Agustus",
+          "value": 12200
+        },
+        {
+          "month": "September",
+          "value": 12200
+        },
+        {
+          "month": "Oktober",
+          "value": 12160
+        },
+        {
+          "month": "November",
+          "value": 12220
+        },
+        {
+          "month": "Desember",
+          "value": 12270
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Sulawesi Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 56290
+        },
+        {
+          "month": "Agustus",
+          "value": 44890
+        },
+        {
+          "month": "September",
+          "value": 49840
+        },
+        {
+          "month": "Oktober",
+          "value": 41370
+        },
+        {
+          "month": "November",
+          "value": 35530
+        },
+        {
+          "month": "Desember",
+          "value": 30250
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Sulawesi Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 58710
+        },
+        {
+          "month": "Agustus",
+          "value": 65050
+        },
+        {
+          "month": "September",
+          "value": 54230
+        },
+        {
+          "month": "Oktober",
+          "value": 52090
+        },
+        {
+          "month": "November",
+          "value": 47760
+        },
+        {
+          "month": "Desember",
+          "value": 49190
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Sulawesi Tengah",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 5910
+        },
+        {
+          "month": "Agustus",
+          "value": 5730
+        },
+        {
+          "month": "September",
+          "value": 6020
+        },
+        {
+          "month": "Oktober",
+          "value": 5930
+        },
+        {
+          "month": "November",
+          "value": 5910
+        },
+        {
+          "month": "Desember",
+          "value": 6040
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Sulawesi Tenggara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 39340
+        },
+        {
+          "month": "Agustus",
+          "value": 29790
+        },
+        {
+          "month": "September",
+          "value": 27780
+        },
+        {
+          "month": "Oktober",
+          "value": 31140
+        },
+        {
+          "month": "November",
+          "value": 33430
+        },
+        {
+          "month": "Desember",
+          "value": 43470
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Sulawesi Tenggara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 45630
+        },
+        {
+          "month": "Agustus",
+          "value": 43180
+        },
+        {
+          "month": "September",
+          "value": 42810
+        },
+        {
+          "month": "Oktober",
+          "value": 45720
+        },
+        {
+          "month": "November",
+          "value": 46030
+        },
+        {
+          "month": "Desember",
+          "value": 46080
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Sulawesi Tenggara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 13100
+        },
+        {
+          "month": "Agustus",
+          "value": 13290
+        },
+        {
+          "month": "September",
+          "value": 13010
+        },
+        {
+          "month": "Oktober",
+          "value": 13070
+        },
+        {
+          "month": "November",
+          "value": 12660
+        },
+        {
+          "month": "Desember",
+          "value": 12810
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Sulawesi Tenggara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 14520
+        },
+        {
+          "month": "Agustus",
+          "value": 14690
+        },
+        {
+          "month": "September",
+          "value": 14540
+        },
+        {
+          "month": "Oktober",
+          "value": 14600
+        },
+        {
+          "month": "November",
+          "value": 14210
+        },
+        {
+          "month": "Desember",
+          "value": 14440
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Sulawesi Tenggara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12480
+        },
+        {
+          "month": "Agustus",
+          "value": 12370
+        },
+        {
+          "month": "September",
+          "value": 12330
+        },
+        {
+          "month": "Oktober",
+          "value": 12420
+        },
+        {
+          "month": "November",
+          "value": 12200
+        },
+        {
+          "month": "Desember",
+          "value": 12190
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Sulawesi Tenggara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 55400
+        },
+        {
+          "month": "Agustus",
+          "value": 48750
+        },
+        {
+          "month": "September",
+          "value": 47060
+        },
+        {
+          "month": "Oktober",
+          "value": 41070
+        },
+        {
+          "month": "November",
+          "value": 36310
+        },
+        {
+          "month": "Desember",
+          "value": 34310
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Sulawesi Tenggara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 49880
+        },
+        {
+          "month": "Agustus",
+          "value": 60820
+        },
+        {
+          "month": "September",
+          "value": 53050
+        },
+        {
+          "month": "Oktober",
+          "value": 39700
+        },
+        {
+          "month": "November",
+          "value": 42300
+        },
+        {
+          "month": "Desember",
+          "value": 42000
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Sulawesi Tenggara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 5280
+        },
+        {
+          "month": "Agustus",
+          "value": 5130
+        },
+        {
+          "month": "September",
+          "value": 5270
+        },
+        {
+          "month": "Oktober",
+          "value": 5190
+        },
+        {
+          "month": "November",
+          "value": 5170
+        },
+        {
+          "month": "Desember",
+          "value": 5450
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Sulawesi Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 45590
+        },
+        {
+          "month": "Agustus",
+          "value": 33160
+        },
+        {
+          "month": "September",
+          "value": 31230
+        },
+        {
+          "month": "Oktober",
+          "value": 35250
+        },
+        {
+          "month": "November",
+          "value": 36390
+        },
+        {
+          "month": "Desember",
+          "value": 47870
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Sulawesi Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 47940
+        },
+        {
+          "month": "Agustus",
+          "value": 46260
+        },
+        {
+          "month": "September",
+          "value": 45630
+        },
+        {
+          "month": "Oktober",
+          "value": 45090
+        },
+        {
+          "month": "November",
+          "value": 45120
+        },
+        {
+          "month": "Desember",
+          "value": 47510
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Sulawesi Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 13690
+        },
+        {
+          "month": "Agustus",
+          "value": 13850
+        },
+        {
+          "month": "September",
+          "value": 13770
+        },
+        {
+          "month": "Oktober",
+          "value": 13680
+        },
+        {
+          "month": "November",
+          "value": 13320
+        },
+        {
+          "month": "Desember",
+          "value": 13370
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Sulawesi Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 14930
+        },
+        {
+          "month": "Agustus",
+          "value": 15020
+        },
+        {
+          "month": "September",
+          "value": 15080
+        },
+        {
+          "month": "Oktober",
+          "value": 15120
+        },
+        {
+          "month": "November",
+          "value": 14740
+        },
+        {
+          "month": "Desember",
+          "value": 14690
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Sulawesi Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12460
+        },
+        {
+          "month": "Agustus",
+          "value": 12470
+        },
+        {
+          "month": "September",
+          "value": 12470
+        },
+        {
+          "month": "Oktober",
+          "value": 12380
+        },
+        {
+          "month": "November",
+          "value": 12400
+        },
+        {
+          "month": "Desember",
+          "value": 12290
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Sulawesi Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 46190
+        },
+        {
+          "month": "Agustus",
+          "value": 43660
+        },
+        {
+          "month": "September",
+          "value": 42610
+        },
+        {
+          "month": "Oktober",
+          "value": 37140
+        },
+        {
+          "month": "November",
+          "value": 33660
+        },
+        {
+          "month": "Desember",
+          "value": 35920
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Sulawesi Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 56390
+        },
+        {
+          "month": "Agustus",
+          "value": 58460
+        },
+        {
+          "month": "September",
+          "value": 67900
+        },
+        {
+          "month": "Oktober",
+          "value": 72480
+        },
+        {
+          "month": "November",
+          "value": 46150
+        },
+        {
+          "month": "Desember",
+          "value": 42480
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Sulawesi Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 4960
+        },
+        {
+          "month": "Agustus",
+          "value": 4850
+        },
+        {
+          "month": "September",
+          "value": 5160
+        },
+        {
+          "month": "Oktober",
+          "value": 5410
+        },
+        {
+          "month": "November",
+          "value": 5460
+        },
+        {
+          "month": "Desember",
+          "value": 5590
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Sumatera Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 36550
+        },
+        {
+          "month": "Agustus",
+          "value": 21590
+        },
+        {
+          "month": "September",
+          "value": 20010
+        },
+        {
+          "month": "Oktober",
+          "value": 27470
+        },
+        {
+          "month": "November",
+          "value": 28430
+        },
+        {
+          "month": "Desember",
+          "value": 30350
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Sumatera Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 39300
+        },
+        {
+          "month": "Agustus",
+          "value": 38560
+        },
+        {
+          "month": "September",
+          "value": 38700
+        },
+        {
+          "month": "Oktober",
+          "value": 38750
+        },
+        {
+          "month": "November",
+          "value": 38000
+        },
+        {
+          "month": "Desember",
+          "value": 40110
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Sumatera Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 14930
+        },
+        {
+          "month": "Agustus",
+          "value": 14860
+        },
+        {
+          "month": "September",
+          "value": 15210
+        },
+        {
+          "month": "Oktober",
+          "value": 15330
+        },
+        {
+          "month": "November",
+          "value": 15310
+        },
+        {
+          "month": "Desember",
+          "value": 15090
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Sumatera Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 17390
+        },
+        {
+          "month": "Agustus",
+          "value": 17230
+        },
+        {
+          "month": "September",
+          "value": 17540
+        },
+        {
+          "month": "Oktober",
+          "value": 17520
+        },
+        {
+          "month": "November",
+          "value": 17510
+        },
+        {
+          "month": "Desember",
+          "value": 17350
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Sumatera Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12820
+        },
+        {
+          "month": "Agustus",
+          "value": 12780
+        },
+        {
+          "month": "September",
+          "value": 12930
+        },
+        {
+          "month": "Oktober",
+          "value": 13110
+        },
+        {
+          "month": "November",
+          "value": 13080
+        },
+        {
+          "month": "Desember",
+          "value": 12880
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Sumatera Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 45020
+        },
+        {
+          "month": "Agustus",
+          "value": 39180
+        },
+        {
+          "month": "September",
+          "value": 41480
+        },
+        {
+          "month": "Oktober",
+          "value": 29020
+        },
+        {
+          "month": "November",
+          "value": 29110
+        },
+        {
+          "month": "Desember",
+          "value": 32030
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Sumatera Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 51800
+        },
+        {
+          "month": "Agustus",
+          "value": 54920
+        },
+        {
+          "month": "September",
+          "value": 56330
+        },
+        {
+          "month": "Oktober",
+          "value": 51720
+        },
+        {
+          "month": "November",
+          "value": 42570
+        },
+        {
+          "month": "Desember",
+          "value": 43460
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Sumatera Barat",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 5160
+        },
+        {
+          "month": "Agustus",
+          "value": 4840
+        },
+        {
+          "month": "September",
+          "value": 5290
+        },
+        {
+          "month": "Oktober",
+          "value": 5530
+        },
+        {
+          "month": "November",
+          "value": 5360
+        },
+        {
+          "month": "Desember",
+          "value": 5600
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Sumatera Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 36750
+        },
+        {
+          "month": "Agustus",
+          "value": 26350
+        },
+        {
+          "month": "September",
+          "value": 22230
+        },
+        {
+          "month": "Oktober",
+          "value": 26630
+        },
+        {
+          "month": "November",
+          "value": 29880
+        },
+        {
+          "month": "Desember",
+          "value": 38940
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Sumatera Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 37830
+        },
+        {
+          "month": "Agustus",
+          "value": 37470
+        },
+        {
+          "month": "September",
+          "value": 36850
+        },
+        {
+          "month": "Oktober",
+          "value": 38030
+        },
+        {
+          "month": "November",
+          "value": 37490
+        },
+        {
+          "month": "Desember",
+          "value": 41120
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Sumatera Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12230
+        },
+        {
+          "month": "Agustus",
+          "value": 12390
+        },
+        {
+          "month": "September",
+          "value": 12500
+        },
+        {
+          "month": "Oktober",
+          "value": 12520
+        },
+        {
+          "month": "November",
+          "value": 12540
+        },
+        {
+          "month": "Desember",
+          "value": 12550
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Sumatera Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 14010
+        },
+        {
+          "month": "Agustus",
+          "value": 14050
+        },
+        {
+          "month": "September",
+          "value": 14050
+        },
+        {
+          "month": "Oktober",
+          "value": 14110
+        },
+        {
+          "month": "November",
+          "value": 14200
+        },
+        {
+          "month": "Desember",
+          "value": 14140
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Sumatera Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12610
+        },
+        {
+          "month": "Agustus",
+          "value": 12500
+        },
+        {
+          "month": "September",
+          "value": 12480
+        },
+        {
+          "month": "Oktober",
+          "value": 12470
+        },
+        {
+          "month": "November",
+          "value": 12490
+        },
+        {
+          "month": "Desember",
+          "value": 12410
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Sumatera Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 39820
+        },
+        {
+          "month": "Agustus",
+          "value": 46580
+        },
+        {
+          "month": "September",
+          "value": 33940
+        },
+        {
+          "month": "Oktober",
+          "value": 26790
+        },
+        {
+          "month": "November",
+          "value": 21740
+        },
+        {
+          "month": "Desember",
+          "value": 38180
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Sumatera Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 40960
+        },
+        {
+          "month": "Agustus",
+          "value": 68400
+        },
+        {
+          "month": "September",
+          "value": 42090
+        },
+        {
+          "month": "Oktober",
+          "value": 41940
+        },
+        {
+          "month": "November",
+          "value": 40170
+        },
+        {
+          "month": "Desember",
+          "value": 39290
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Sumatera Selatan",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 5480
+        },
+        {
+          "month": "Agustus",
+          "value": 5330
+        },
+        {
+          "month": "September",
+          "value": 6340
+        },
+        {
+          "month": "Oktober",
+          "value": 6060
+        },
+        {
+          "month": "November",
+          "value": 6030
+        },
+        {
+          "month": "Desember",
+          "value": 6090
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Merah",
+      "Provinsi": "Sumatera Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 39290
+        },
+        {
+          "month": "Agustus",
+          "value": 27650
+        },
+        {
+          "month": "September",
+          "value": 25250
+        },
+        {
+          "month": "Oktober",
+          "value": 27340
+        },
+        {
+          "month": "November",
+          "value": 30290
+        },
+        {
+          "month": "Desember",
+          "value": 34680
+        }
+      ]
+    },
+    {
+      "Komoditas": "Bawang Putih",
+      "Provinsi": "Sumatera Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 39140
+        },
+        {
+          "month": "Agustus",
+          "value": 38250
+        },
+        {
+          "month": "September",
+          "value": 38330
+        },
+        {
+          "month": "Oktober",
+          "value": 38420
+        },
+        {
+          "month": "November",
+          "value": 39830
+        },
+        {
+          "month": "Desember",
+          "value": 41180
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Medium",
+      "Provinsi": "Sumatera Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 13920
+        },
+        {
+          "month": "Agustus",
+          "value": 14070
+        },
+        {
+          "month": "September",
+          "value": 14150
+        },
+        {
+          "month": "Oktober",
+          "value": 13950
+        },
+        {
+          "month": "November",
+          "value": 13880
+        },
+        {
+          "month": "Desember",
+          "value": 13710
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras Premium",
+      "Provinsi": "Sumatera Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 15210
+        },
+        {
+          "month": "Agustus",
+          "value": 15450
+        },
+        {
+          "month": "September",
+          "value": 15510
+        },
+        {
+          "month": "Oktober",
+          "value": 15430
+        },
+        {
+          "month": "November",
+          "value": 15260
+        },
+        {
+          "month": "Desember",
+          "value": 15250
+        }
+      ]
+    },
+    {
+      "Komoditas": "Beras SPHP",
+      "Provinsi": "Sumatera Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 12500
+        },
+        {
+          "month": "Agustus",
+          "value": 12640
+        },
+        {
+          "month": "September",
+          "value": 12840
+        },
+        {
+          "month": "Oktober",
+          "value": 12720
+        },
+        {
+          "month": "November",
+          "value": 12710
+        },
+        {
+          "month": "Desember",
+          "value": 12580
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Merah",
+      "Provinsi": "Sumatera Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 39750
+        },
+        {
+          "month": "Agustus",
+          "value": 30510
+        },
+        {
+          "month": "September",
+          "value": 34580
+        },
+        {
+          "month": "Oktober",
+          "value": 23160
+        },
+        {
+          "month": "November",
+          "value": 25020
+        },
+        {
+          "month": "Desember",
+          "value": 33120
+        }
+      ]
+    },
+    {
+      "Komoditas": "Cabai Rawit",
+      "Provinsi": "Sumatera Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 46880
+        },
+        {
+          "month": "Agustus",
+          "value": 49040
+        },
+        {
+          "month": "September",
+          "value": 57240
+        },
+        {
+          "month": "Oktober",
+          "value": 46530
+        },
+        {
+          "month": "November",
+          "value": 38280
+        },
+        {
+          "month": "Desember",
+          "value": 49480
+        }
+      ]
+    },
+    {
+      "Komoditas": "Jagung",
+      "Provinsi": "Sumatera Utara",
+      "price": [
+        {
+          "month": "Juli",
+          "value": 6000
+        },
+        {
+          "month": "Agustus",
+          "value": 5590
+        },
+        {
+          "month": "September",
+          "value": 5780
+        },
+        {
+          "month": "Oktober",
+          "value": 5720
+        },
+        {
+          "month": "November",
+          "value": 5870
+        },
+        {
+          "month": "Desember",
+          "value": 5770
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils";
 import kangkung from "/kangkung.png";
 import up from "/Stonk.png";
 import { Buttons } from "./Buttons";
-import { HTMLAttributes, useState } from "react";
+import { HTMLAttributes, useRef, useState } from "react";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -14,6 +14,7 @@ import {
   Legend,
 } from "chart.js";
 import { Line } from "react-chartjs-2";
+import { motion, useInView } from "framer-motion";
 
 ChartJS.register(
   CategoryScale,
@@ -26,9 +27,9 @@ ChartJS.register(
 );
 
 type itemPrices = {
-  month: string,
-  value: number
-}
+  month: string;
+  value: number;
+};
 
 type Props = {
   location?: string;
@@ -52,11 +53,24 @@ export default function Card({
     return price.value !== null ? price.value.toLocaleString("id-ID") : 0;
   };
 
-  const formattedPrice = price ? onFormattedPrice(price[3]) : [];
+  const containerRef = useRef(null);
+
+  const isInView = useInView(containerRef, { once: true });
+
+  const formattedPrice = price ? onFormattedPrice(price[5]) : [];
 
   return (
     <div className={cn("flex justify-center w-full", props.className)}>
-      <div
+      <motion.div
+        ref={containerRef}
+        initial={{ opacity: 0, x: -200 }}
+        animate={{
+          opacity: isInView ? 1 : 0,
+          x: isInView ? 0 : -200,
+          scale: 0.95,
+        }}
+        viewport={{ margin: "-140px" }}
+        transition={{ type: "spring", stiffness: 100, damping: 25, delay: 0.3 }}
         className="z-[3] rounded-[1.5rem] overflow-hidden relative w-full shadow-xl"
         style={{ backgroundColor: "#EDF9CE" }}
       >
@@ -81,7 +95,11 @@ export default function Card({
           style={{ backgroundColor: "#EDF9CE" }}
         >
           <div className="mb-[0.875rem] flex gap-2 relative">
-            <img src={kangkung} alt="" />
+            <img
+              src={`/data/item/${item}.png`}
+              alt="sayur.png"
+              className="w-[8rem] h-[8.25rem] rounded-[2.25rem] border-2 border-dark-green"
+            />
             <div>
               <p
                 className="text-[1.5rem] font-body font-semibold"
@@ -107,7 +125,7 @@ export default function Card({
             </Buttons>
           </div>
         </div>
-      </div>
+      </motion.div>
 
       <div
         className={cn(
@@ -132,10 +150,11 @@ export default function Card({
             <div className="h-[2.5rem]"></div>
             <div className="w-full h-auto flex gap-2">
               <img
-                src={kangkung}
+                src={`/data/item/${item}.png`}
                 alt="sayur.png"
-                className="w-[8rem] h-[8.25rem]"
+                className="w-[8rem] h-[8.25rem] rounded-[2.25rem] border-2 border-dark-green"
               />
+
               <div className="w-full">
                 <h1 className="font-medium font-body text-[2rem]">{item}</h1>
                 <div className="flex gap-[2rem] relative">
@@ -159,7 +178,7 @@ export default function Card({
               {isOpen && (
                 <Line
                   data={{
-                    labels: ["Oct 2024", "Nov 2024", "Des 2024", "Jan 2025"],
+                    labels: price.map((item: itemPrices) => item.month),
                     datasets: [
                       {
                         label: "Price",
@@ -170,12 +189,11 @@ export default function Card({
                         pointRadius: 3,
                         pointBorderColor: "#b3bf82",
                         pointBorderWidth: 0.5,
-                        tension: 0.3,
                         fill: {
-                          target: 'origin',
-                          above: 'rgb(255, 0, 0)',  
-                          below: 'rgb(0, 0, 255)'   
-                        }
+                          target: "origin",
+                          above: "rgb(255, 0, 0)",
+                          below: "rgb(0, 0, 255)",
+                        },
                       },
                     ],
                   }}
@@ -195,12 +213,12 @@ export default function Card({
                     scales: {
                       x: {
                         grid: {
-                          display: false,
+                          display: true,
                         },
                       },
                       y: {
                         grid: {
-                          display: false,
+                          display: true,
                         },
                       },
                     },
