@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 import tailwindScrollbarHide from "tailwind-scrollbar-hide";
+import tailwindTextStroke from "tailwindcss-text-stroke";
 
 export default {
   content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
@@ -29,11 +30,27 @@ export default {
           "50%": { transform: "rotate(0deg)" },
           "100%": { transform: "rotate(0deg)" },
         },
+        popUpInfinite: {
+          "0%": { opacity: 1 },
+          "25%": { opacity: 0.5 },
+          "50%": { opacity: 0 },
+          "75%": { opacity: 0.5 },
+          "100%": { opacity: 1 },
+        },
+        slideLeftToRight: {
+          "0%": { transform: "translateX(-100%)" },
+          "100%": { transform: "translateX(0)" },
+        },
       },
       animation: {
         rotateInfinite: "rotateInfinite 1.5s ease-out infinite",
+        popUpInfinite: "popUpInfinite 1.5s ease-in-out infinite",
+        slideLeftToRight: "slideLeftToRight 1s ease-out forwards",
+      },
+      height: {
+        dvh: "100dvh",
       },
     },
   },
-  plugins: [tailwindScrollbarHide],
+  plugins: [tailwindScrollbarHide, tailwindTextStroke],
 };

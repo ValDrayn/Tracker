@@ -1,6 +1,4 @@
 import { cn } from "@/lib/utils";
-import kangkung from "/kangkung.png";
-import up from "/Stonk.png";
 import { Buttons } from "./Buttons";
 import { HTMLAttributes, useRef, useState } from "react";
 import {
@@ -12,6 +10,7 @@ import {
   Title,
   Tooltip,
   Legend,
+  Filler,
 } from "chart.js";
 import { Line } from "react-chartjs-2";
 import { motion, useInView } from "framer-motion";
@@ -23,7 +22,8 @@ ChartJS.register(
   LineElement,
   Title,
   Tooltip,
-  Legend
+  Legend,
+  Filler
 );
 
 type itemPrices = {
@@ -102,7 +102,11 @@ export default function Card({
             />
             <div>
               <p
-                className={cn(`text-[1.5rem] font-body font-semibold ${item?.length > 7 ? "text-[1.3rem]" : "text-[1.5rem]"}`)}
+                className={cn(
+                  `text-[1.5rem] font-body font-semibold ${
+                    item?.length > 7 ? "text-[1.3rem]" : "text-[1.5rem]"
+                  }`
+                )}
                 style={{ color: "#989053" }}
               >
                 {item}
@@ -156,8 +160,16 @@ export default function Card({
               />
 
               <div className="w-full">
-                <h1 className={cn(`font-medium font-body text-[2rem] ${item?.length > 7 ? "text-[1.7rem]" : "text-[2rem]"}`)}>{item}</h1>
-                <div className="flex gap-[2rem] relative">
+                <h1
+                  className={cn(
+                    `font-medium font-body text-[2rem] ${
+                      item?.length > 7 ? "text-[1.7rem]" : "text-[2rem]"
+                    }`
+                  )}
+                >
+                  {item}
+                </h1>
+                <div className="flex gap-[1rem] relative overflow-hidden">
                   <div>
                     <h1 className="font-bold font-body text-[2.25rem]">
                       {percentage}%
@@ -166,11 +178,21 @@ export default function Card({
                       Rp. {formattedPrice}
                     </h1>
                   </div>
-                  <img
+                  {/* <img
                     src={up}
                     alt=""
                     className="scale-[90%] rotate-12 w-auto h-auto "
-                  />
+                  /> */}
+                  <div className="w-auto h-auto overflow-hidden">
+
+                  {price[4].value > price[5].value ? (
+                    <i className={cn(`bx bx-trending-down text-[5rem] !text-red-500 ${isOpen && "animate-slideLeftToRight"}`)}></i>
+                  ) : price[4].value == price[5].value ? (
+                    <i className="bx bx-minus text-[5rem] text-slate-500"></i>
+                  ) : (
+                    <i className={cn(`bx bx-trending-up text-[5rem] !text-green-500 mt-[1rem] ${isOpen && "animate-slideLeftToRight"}`)}></i>
+                  )}
+                  </div>
                 </div>
               </div>
             </div>
@@ -185,15 +207,33 @@ export default function Card({
                         data: price.map((item: itemPrices) => item.value),
                         borderColor: "#9FBA42",
                         borderWidth: 2,
-                        backgroundColor: "rgba(159, 186, 66, 0.3)",
-                        pointRadius: 3,
+                        // backgroundColor: "rgba(159, 186, 66, 0.3)",
+                        pointRadius: 4,
                         pointBorderColor: "#b3bf82",
                         pointBorderWidth: 0.5,
-                        fill: {
-                          target: "origin",
-                          above: "rgb(255, 0, 0)",
-                          below: "rgb(0, 0, 255)",
+                        backgroundColor: (context) => {
+                          const bgColor = ["#E9EDC9", "#f6fcc5","rgba(233, 237, 201, 0)"];
+                          if (!context.chart.chartArea) {
+                            return;
+                          }
+                          const {
+                            ctx,
+                            chartArea: { top, bottom },
+                          } = context.chart;
+                          const gradientBg = ctx.createLinearGradient(
+                            0,
+                            top,
+                            0,
+                            bottom
+                          );
+                          gradientBg.addColorStop(0, bgColor[0]);
+                          gradientBg.addColorStop(0.4, bgColor[0]);
+                          gradientBg.addColorStop(0.75, bgColor[2]);
+                          gradientBg.addColorStop(1, bgColor[2]);
+
+                          return gradientBg;
                         },
+                        fill: true,
                       },
                     ],
                   }}
@@ -213,12 +253,12 @@ export default function Card({
                     scales: {
                       x: {
                         grid: {
-                          display: true,
+                          display: false,
                         },
                       },
                       y: {
                         grid: {
-                          display: true,
+                          display: false,
                         },
                       },
                     },

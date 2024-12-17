@@ -28,7 +28,8 @@
     "sirv": "^3.0.0",
     "tailwind-merge": "^2.5.5",
     "tailwind-scrollbar-hide": "^1.1.7",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "tailwindcss-text-stroke": "^0.0.5"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",

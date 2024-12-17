@@ -135,12 +135,12 @@ export default function AppLayout() {
       )}
       {isValid && (
         <div className="w-full items-start my-[1.25rem]">
-          <h1
+          <span
             className="font-bold text-[1.125rem]"
             style={{ color: "#989053" }}
           >
-            Largest price increase in next month
-          </h1>
+            {location.pathname == "/home" && <span>Top 3 </span>}Largest price increase next month
+          </span>
         </div>
       )}
       <Outlet />

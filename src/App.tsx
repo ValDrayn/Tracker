@@ -1,11 +1,11 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import Applayout from "./lib/pages/Applayout";
+import Applayout from "./pages/Applayout";
 import ContextPool from "./components/util/ContextPool";
-import Home from "./lib/pages/Home";
-import NotFound from "./lib/pages/NotFound";
-import Locations from "./lib/pages/Locations";
-import Dashboard from "./lib/pages/Dashboard";
+import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
+import Locations from "./pages/Locations";
+import Dashboard from "./pages/Dashboard";
 
 const queryClient = new QueryClient();
 

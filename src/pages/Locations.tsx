@@ -1,7 +1,7 @@
 import Card from "@/components/ui/Card";
 import { Navigate, useLocation, useParams } from "react-router-dom";
 // import data from "../../../public/data/db.json";
-import dataAOL from "../../../public/data/databaseAOL.json";
+import dataAOL from "../../public/data/databaseAOL.json";
 import { useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/utils";
 
@@ -94,9 +94,9 @@ export default function Locations() {
     
       const timeout = setTimeout(() => {
         setBorderAnimate(formattedPath);
-      }, 50); // Delay singkat untuk re-trigger animasi
+      }, 50);
     
-      return () => clearTimeout(timeout); // Bersihkan timeout saat komponen unmount
+      return () => clearTimeout(timeout);
     }, [currentLocation, formattedPath]);
 
   return (
@@ -104,11 +104,11 @@ export default function Locations() {
       ref={scrollContainerRef}
       className="overflow-y-auto scrollbar-hide w-full flex flex-col items-center gap-[1.25rem] pb-[4rem] overflow-hidden"
     >
-      <div className="flex w-full h-auto justify-around items-center sticky -top-1 z-[5] bg-[#FFFEFA]">
+      <div className="flex w-full h-auto justify-between items-center sticky -top-1 z-[5] bg-[#FFFEFA]">
         <div className={cn(`w-[30%] h-0 border-dark-green border-2 rounded-lg transition-transform duration-500 ease-in-out ${borderAnimate === formattedPath ? "scale-100" : "scale-0"}`)}></div>
         <h1
           className={cn(
-            `font-body text-dark-green text-center font-medium ${
+            `font-body text-dark-green text-center font-medium mx-3 ${
               formattedPath.length >= 20
                 ? "text-[1rem]"
                 : formattedPath.length >= 13

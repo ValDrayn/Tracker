@@ -43,5 +43,5 @@
 .custom-select
   .ant-select-selector
   .ant-select-selection-search-input::placeholder {
-  font-size: 10rem; /* Set ukuran font sesuai keinginan */
+  font-size: 10rem;
 }
