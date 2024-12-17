@@ -1,5 +1,5 @@
 import Card from "@/components/ui/Card";
-import data from "../../../public/data/db.json";
+// import data from "../../../public/data/db.json";
 import dataAOL from "../../../public/data/databaseAOL.json";
 
 // const data = [

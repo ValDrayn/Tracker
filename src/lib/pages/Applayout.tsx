@@ -2,7 +2,7 @@ import HeaderProfile from "@/components/ui/HeaderProfile";
 import Navbar from "@/components/ui/Navbar";
 import { Select } from "antd";
 import { motion, useAnimation } from "framer-motion";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Outlet, useLocation, useNavigate } from "react-router-dom";
 // import "../../App.css"
 
@@ -12,7 +12,7 @@ const headers = {
 
 const url = [
   "Aceh", "Sumatera Utara", "Sumatera Barat", "Riau", "Jambi", "Sumatera Selatan",
-  "Bengkulu", "Lampung", "Kepulauan Bangka Belitung", "Kepulauan Riau", "DKI Jakarta",
+  "Bengkulu", "Lampung", "Kepulauan Bangka Belitung", "Kepulauan Riau", "Jakarta",
   "Jawa Barat", "Jawa Tengah", "Yogyakarta", "Jawa Timur", "Banten", "Bali",
   "Nusa Tenggara Barat", "Nusa Tenggara Timur", "Kalimantan Barat", "Kalimantan Tengah",
   "Kalimantan Selatan", "Kalimantan Timur", "Kalimantan Utara", "Sulawesi Utara",
@@ -42,7 +42,7 @@ const validRoutes = [
   { path: "/lampung", component: "Lampung" },
   { path: "/kepulauan-bangka-belitung", component: "Kepulauan-Bangka-Belitung" },
   { path: "/kepulauan-riau", component: "Kepulauan-Riau" },
-  { path: "/dki-jakarta", component: "Dki-Jakarta" },
+  { path: "/jakarta", component: "Jakarta" },
   { path: "/jawa-barat", component: "Jawa-Barat" },
   { path: "/jawa-tengah", component: "Jawa-Tengah" },
   { path: "/yogyakarta", component: "Yogyakarta" },
@@ -75,6 +75,7 @@ const validRoutes = [
 
 
 export default function AppLayout() {
+  const [selectedValue, setSelectedValue] = useState("");
   const location = useLocation();
   const navigate = useNavigate();
   const header = headers[location.pathname as keyof typeof headers] || null;
@@ -90,12 +91,17 @@ export default function AppLayout() {
     } else {
       mainControls.start("hidden");
     }
-  }, [location.pathname, mainControls]);
+    if (selectedValue && location.pathname !== `/${selectedValue.toLowerCase().replace(/\s+/g, "-")}`) {
+      setSelectedValue("");
+    }
+  }, [location.pathname, mainControls, selectedValue]);
 
   const handleChange = (value: string) => {
+    setSelectedValue(value);
     navigate(`/${value.toLowerCase().replace(/\s+/g, "-")}`);
   };
-
+  
+  
   return (
     <div className="max-w-[26.875rem] w-full min-w-[24.5rem] h-[100vh] flex flex-col items-center p-4 bg-[#FFFEFA] relative overflow-hidden">
       <section ref={containerRef}>
@@ -118,12 +124,13 @@ export default function AppLayout() {
           placeholder="Select a city"
           optionFilterProp="label"
           size="large"
+          value={selectedValue || undefined}
           options={url.map((item) => ({
             label: item,
             value: item,
           }))}
           style={{ width: "100%" }}
-          onChange={handleChange}
+          onChange={(value) => handleChange(value)}
         />
       )}
       {isValid && (

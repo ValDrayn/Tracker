@@ -34,7 +34,7 @@ type itemPrices = {
 type Props = {
   location?: string;
   percentage?: number;
-  item?: string;
+  item: string;
   id?: number;
   price: itemPrices[];
 };
@@ -102,7 +102,7 @@ export default function Card({
             />
             <div>
               <p
-                className="text-[1.5rem] font-body font-semibold"
+                className={cn(`text-[1.5rem] font-body font-semibold ${item?.length > 7 ? "text-[1.3rem]" : "text-[1.5rem]"}`)}
                 style={{ color: "#989053" }}
               >
                 {item}
@@ -156,7 +156,7 @@ export default function Card({
               />
 
               <div className="w-full">
-                <h1 className="font-medium font-body text-[2rem]">{item}</h1>
+                <h1 className={cn(`font-medium font-body text-[2rem] ${item?.length > 7 ? "text-[1.7rem]" : "text-[2rem]"}`)}>{item}</h1>
                 <div className="flex gap-[2rem] relative">
                   <div>
                     <h1 className="font-bold font-body text-[2.25rem]">

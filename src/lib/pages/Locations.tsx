@@ -2,7 +2,8 @@ import Card from "@/components/ui/Card";
 import { Navigate, useLocation, useParams } from "react-router-dom";
 // import data from "../../../public/data/db.json";
 import dataAOL from "../../../public/data/databaseAOL.json";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
+import { cn } from "@/lib/utils";
 
 // const data = [
 //     {location:"Jakarta", percentage:19, item: "Kangkung"},
@@ -21,7 +22,7 @@ const url = [
   "Lampung",
   "Kepulauan Bangka Belitung",
   "Kepulauan Riau",
-  "DKI Jakarta",
+  "Jakarta",
   "Jawa Barat",
   "Jawa Tengah",
   "Yogyakarta",
@@ -62,6 +63,7 @@ export default function Locations() {
   const location = params.location;
   const currentLocation = useLocation();
   const scrollContainerRef = useRef<HTMLDivElement>(null);
+  const [borderAnimate, setBorderAnimate] = useState(window.location.pathname);
 
   const isValidLocation = url.some((city) => {
     const formattedCity = city.toLowerCase().replace(/\s+/g, "-");
@@ -76,25 +78,49 @@ export default function Locations() {
     return <Navigate to="*" />;
   }
 
-  //  const populate = new Array(10).fill("x").map((_, index) => {
-  //         return data.data.length > index
-  //           ? {
-  //               location: data.data[index].location,
-  //               percentage: data.data[index].percentage,
-  //               nama: data.data[index].nama,
-  //               price: data.data[index].price
-  //             }
-  //           : { location: "Unknown", percentage: 0, nama: "TBA", price: dummyData};
-  //       });
+  const formattedPath = window.location.pathname
+    .slice(1)
+    .replace(/-/g, " ")
+    .split(" ")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    .join(" ");
 
-  useEffect(() => {
-    if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-  }, [currentLocation]);
+    useEffect(() => {
+      if (scrollContainerRef.current) {
+        scrollContainerRef.current.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    
+      setBorderAnimate(window.location.pathname); 
+    
+      const timeout = setTimeout(() => {
+        setBorderAnimate(formattedPath);
+      }, 50); // Delay singkat untuk re-trigger animasi
+    
+      return () => clearTimeout(timeout); // Bersihkan timeout saat komponen unmount
+    }, [currentLocation, formattedPath]);
 
   return (
-    <div ref={scrollContainerRef} className="overflow-y-auto scrollbar-hide w-full flex flex-col items-center gap-[1.25rem] pb-[4rem] ">
+    <div
+      ref={scrollContainerRef}
+      className="overflow-y-auto scrollbar-hide w-full flex flex-col items-center gap-[1.25rem] pb-[4rem] overflow-hidden"
+    >
+      <div className="flex w-full h-auto justify-around items-center sticky -top-1 z-[5] bg-[#FFFEFA]">
+        <div className={cn(`w-[30%] h-0 border-dark-green border-2 rounded-lg transition-transform duration-500 ease-in-out ${borderAnimate === formattedPath ? "scale-100" : "scale-0"}`)}></div>
+        <h1
+          className={cn(
+            `font-body text-dark-green text-center font-medium ${
+              formattedPath.length >= 20
+                ? "text-[1rem]"
+                : formattedPath.length >= 13
+                ? "text-[1.2rem]"
+                : "text-[1.5rem]"
+            }`
+          )}
+        >
+          {formattedPath}
+        </h1>
+        <div className={cn(`w-[30%] h-0 border-dark-green border-2 rounded-lg transition-transform duration-500 ease-in-out ${borderAnimate === formattedPath ? "scale-100" : "scale-0"}`)}></div>
+      </div>
       {dataAOL.data.map((item, key) => {
         const formattedPathname = window.location.pathname
           .slice(1)
