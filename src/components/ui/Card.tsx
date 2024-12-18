@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 import { Buttons } from "./Buttons";
-import { HTMLAttributes, useRef, useState } from "react";
+import { HTMLAttributes, useEffect, useRef, useState } from "react";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -14,6 +14,8 @@ import {
 } from "chart.js";
 import { Line } from "react-chartjs-2";
 import { motion, useInView } from "framer-motion";
+import axios from "axios";
+import dataDesc from "../../../public/data/description.json";
 
 ChartJS.register(
   CategoryScale,
@@ -48,6 +50,7 @@ export default function Card({
   ...props
 }: Props & HTMLAttributes<HTMLDivElement>) {
   const [isOpen, setIsOpen] = useState(false);
+  const [predicted, setPredicted] = useState();
 
   const onFormattedPrice = (price: itemPrices) => {
     return price.value !== null ? price.value.toLocaleString("id-ID") : 0;
@@ -59,6 +62,38 @@ export default function Card({
 
   const formattedPrice = price ? onFormattedPrice(price[5]) : [];
 
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        console.log("Fetching data...");
+        const response = await axios.post("https://api-tracker.bncc.net", {
+          komoditas: item,
+          provinsi: location,
+          bulan: 1,
+        });
+        console.log("Response received:", response.data);
+        setPredicted(response.data);
+      } catch (error) {
+        console.error("Error during API call:", error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  const descriptions =
+    price[4].value < price[5].value
+      ? dataDesc.data.find((items) => {
+          return item === items.Item;
+        })
+      : dataDesc.data.find((items) => {
+          return item + "-desc" === items.Item;
+        });
+
+  const adjustDesc = descriptions?.["Paragraph-1"]?.replace(
+    "12-18",
+    percentage?.toString() || "default-value"
+  );
   return (
     <div className={cn("flex justify-center w-full", props.className)}>
       <motion.div
@@ -71,7 +106,7 @@ export default function Card({
         }}
         viewport={{ margin: "-140px" }}
         transition={{ type: "spring", stiffness: 100, damping: 25, delay: 0.3 }}
-        className="z-[3] rounded-[1.5rem] overflow-hidden relative w-full shadow-xl"
+        className="z-[1] rounded-[1.5rem] overflow-hidden relative w-full shadow-xl"
         style={{ backgroundColor: "#EDF9CE" }}
       >
         <div className="w-[27.7rem] h-[5.1rem] absolute rounded-3xl top-[47%] left-[55%] -translate-y-[50%] -translate-x-[50%] -rotate-45 z-[0] bg-gradient-to-r from-transparent to-white opacity-70"></div>
@@ -133,25 +168,25 @@ export default function Card({
 
       <div
         className={cn(
-          `absolute z-[100]  opacity-0 top-0 w-full bg-black bg-opacity-40 h-full transition-all duration-200 ${
+          `absolute z-[1]  opacity-0 top-0 w-full bg-black bg-opacity-40 h-full transition-all duration-200 ${
             isOpen ? "opacity-100 z-[100]" : "opacity-0 -z-[1]"
           }`
         )}
       >
         <div className="relative h-full w-full">
           <div
-            className="z-[10] h-full w-full cursor-pointer"
+            className="z-[1] h-full w-full cursor-pointer"
             onClick={() => {
               setIsOpen(!isOpen);
             }}
           ></div>
           <div
             className={cn(
-              `z-[150] w-full h-[60%] absolute bg-[#FFFEFA] rounded-t-[2.25rem] px-[1rem] transition-[bottom] duration-500 ease-in-out will-change-[bottom] flex flex-col overflow-y-auto pb-[5rem] `,
+              `z-[1] w-full h-[60%] absolute bg-[#FFFEFA] rounded-t-[2.25rem] px-[1rem] transition-[bottom] duration-500 ease-in-out will-change-[bottom] flex flex-col overflow-y-auto pb-[5rem] scrollbar-hide`,
               isOpen ? "bottom-0" : "-bottom-[50%]"
             )}
           >
-            <div className="h-[2.5rem]"></div>
+            <div className="min-h-[2.5rem] h-[2.5rem] w-full sticky top-0 z-[10] bg-[#FFFEFA]"></div>
             <div className="w-full h-auto flex gap-2">
               <img
                 src={`/data/item/${item}.png`}
@@ -178,25 +213,34 @@ export default function Card({
                       Rp. {formattedPrice}
                     </h1>
                   </div>
-                  {/* <img
-                    src={up}
-                    alt=""
-                    className="scale-[90%] rotate-12 w-auto h-auto "
-                  /> */}
                   <div className="w-auto h-auto overflow-hidden relative">
-                    <div  className={cn(`w-full h-full z-[5] absolute bg-[#FFFEFA] delay-200   ${isOpen && "animate-slideLeftToRight"}`)}></div>
-                  {price[4].value > price[5].value ? (
-                    <i className={cn(`bx bx-trending-down z-[4] text-[5rem] !text-red-500 `)}></i>
-                  ) : price[4].value == price[5].value ? (
-                    <i className="bx bx-minus text-[5rem] text-slate-500"></i>
-                  ) : (
-                    <i className={cn(`bx bx-trending-up z-[4] text-[5rem] !text-green-500 mt-[1rem]`)}></i>
-                  )}
+                    <div
+                      className={cn(
+                        `w-full h-full z-[5] absolute bg-[#FFFEFA] delay-200   ${
+                          isOpen && "animate-slideLeftToRight"
+                        }`
+                      )}
+                    ></div>
+                    {price[4].value > price[5].value ? (
+                      <i
+                        className={cn(
+                          `bx bx-trending-down z-[4] text-[5rem] !text-red-500 `
+                        )}
+                      ></i>
+                    ) : price[4].value == price[5].value ? (
+                      <i className="bx bx-minus text-[5rem] text-slate-500"></i>
+                    ) : (
+                      <i
+                        className={cn(
+                          `bx bx-trending-up z-[4] text-[5rem] !text-green-500 mt-[1rem]`
+                        )}
+                      ></i>
+                    )}
                   </div>
                 </div>
               </div>
             </div>
-            <div className="w-full h-auto">
+            <div className="w-full h-auto pb-">
               {isOpen && (
                 <Line
                   data={{
@@ -211,7 +255,11 @@ export default function Card({
                         pointBorderColor: "#b3bf82",
                         pointBorderWidth: 0.5,
                         backgroundColor: (context) => {
-                          const bgColor = ["#E9EDC9", "#f6fcc5","rgba(233, 237, 201, 0)"];
+                          const bgColor = [
+                            "#E9EDC9",
+                            "#f6fcc5",
+                            "rgba(233, 237, 201, 0)",
+                          ];
                           if (!context.chart.chartArea) {
                             return;
                           }
@@ -226,8 +274,8 @@ export default function Card({
                             bottom
                           );
                           gradientBg.addColorStop(0, bgColor[0]);
-                          gradientBg.addColorStop(0.4, bgColor[0]);
-                          gradientBg.addColorStop(0.75, bgColor[2]);
+                          gradientBg.addColorStop(0.5, bgColor[0]);
+                          // gradientBg.addColorStop(0.75, bgColor[2]);
                           gradientBg.addColorStop(1, bgColor[2]);
 
                           return gradientBg;
@@ -264,6 +312,57 @@ export default function Card({
                   }}
                 />
               )}
+            </div>
+            <div className="mb-4">
+              <div className="h-0 w-full border-slate-300 border-[1px] mt-4 mb-2"></div>
+              <p className="text-[0.75rem] font-body font-medium mb-2">
+                {adjustDesc}
+              </p>
+              <p className="text-[0.75rem] font-body font-medium mb-4">
+                {descriptions?.Tutorial}
+              </p>
+
+              <div className="h-auto flex gap-2 ml-4">
+                <p className="text-[0.75rem] font-body mb-4 font-semibold">
+                  1.
+                </p>{" "}
+                <span className="text-[0.75rem] font-body font-medium mb-4">
+                  {descriptions?.["Point-1"]}
+                </span>
+              </div>
+
+              <div className="h-auto flex gap-2 ml-4">
+                <p className="text-[0.75rem] font-body mb-4 font-semibold">
+                  2.
+                </p>{" "}
+                <span className="text-[0.75rem] font-body font-medium mb-4">
+                  {descriptions?.["Point-2"]}
+                </span>
+              </div>
+
+              <div className="h-auto flex gap-2 ml-4">
+                <p className="text-[0.75rem] font-body mb-4 font-semibold">
+                  3.
+                </p>{" "}
+                <span className="text-[0.75rem] font-body font-medium mb-4">
+                  {descriptions?.["Point-3"]}
+                </span>
+              </div>
+
+              <p className="text-[0.75rem] font-body font-medium mb-4">
+                {descriptions?.["Paragraph-2"]}
+              </p>
+            </div>
+
+            <div className="text-sm font-body text-gray-600 space-y-1">
+              <p>
+                <span className="font-medium text-gray-800">Source:</span>{" "}
+                <b>{descriptions?.Source || "Unknown"}</b>
+              </p>
+              <p>
+                <span className="font-medium text-gray-800">Source Title:</span>{" "}
+                <b>{descriptions?.["Source Title"] || "No Title Provided"}</b>
+              </p>
             </div>
           </div>
         </div>

@@ -154,7 +154,7 @@ export function DialogProvider({
     >
       <div
         className={cn(
-          "fixed inset-0 z-50 opacity-0 invisible bg-black/50 transition-all duration-400 flex items-center justify-center",
+          "fixed inset-0 z-[999] opacity-0 invisible bg-black/50 transition-all duration-400 flex items-center justify-center",
           isShowing.selectedComponent && "opacity-1 visible"
         )}
       >

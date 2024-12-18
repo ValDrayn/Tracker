@@ -4,31 +4,11 @@ import { Select } from "antd";
 import { motion, useAnimation } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { Outlet, useLocation, useNavigate } from "react-router-dom";
-// import "../../App.css"
+import { url } from "../lib/data";
 
 const headers = {
   "/home": <HeaderProfile />,
 } as const;
-
-const url = [
-  "Aceh", "Sumatera Utara", "Sumatera Barat", "Riau", "Jambi", "Sumatera Selatan",
-  "Bengkulu", "Lampung", "Kepulauan Bangka Belitung", "Kepulauan Riau", "Jakarta",
-  "Jawa Barat", "Jawa Tengah", "Yogyakarta", "Jawa Timur", "Banten", "Bali",
-  "Nusa Tenggara Barat", "Nusa Tenggara Timur", "Kalimantan Barat", "Kalimantan Tengah",
-  "Kalimantan Selatan", "Kalimantan Timur", "Kalimantan Utara", "Sulawesi Utara",
-  "Sulawesi Tengah", "Sulawesi Selatan", "Sulawesi Tenggara", "Gorontalo", "Sulawesi Barat",
-  "Maluku", "Maluku Utara", "Papua Barat", "Papua", "Papua Barat Daya", "Papua Pegunungan",
-  "Papua Tengah", "Papua Selatan"
-];
-
-// const validRoutesa = [
-//   { path: "/home", component: "Home" },
-//   { path: "/jakarta", component: "Jakarta" },
-//   { path: "/palembang", component: "Palembang" },
-//   { path: "/sulawesi", component: "Sulawesi" },
-//   { path: "/bangka", component: "Bangka" },
-//   { path: "/kalimantan", component: "Kalimantan" },
-// ];
 
 const validRoutes = [
   { path: "/home", component: "Home" },
@@ -139,12 +119,12 @@ export default function AppLayout() {
             className="font-bold text-[1.125rem]"
             style={{ color: "#989053" }}
           >
-            {location.pathname == "/home" && <span>Top 3 </span>}Largest price increase next month
+            {location.pathname == "/home" && <span>Top 3 </span>}List predicted price in next month
           </span>
         </div>
       )}
       <Outlet />
-      <Navbar className="absolute bottom-0 z-[10]" />
+      <Navbar className="absolute bottom-0 z-[100]" />
     </div>
   );
 }
