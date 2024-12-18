@@ -144,7 +144,7 @@ export default function AppLayout() {
         </div>
       )}
       <Outlet />
-      <Navbar className="absolute bottom-0 z-[100]" />
+      <Navbar className="absolute bottom-0 z-[10]" />
     </div>
   );
 }

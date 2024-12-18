@@ -183,14 +183,14 @@ export default function Card({
                     alt=""
                     className="scale-[90%] rotate-12 w-auto h-auto "
                   /> */}
-                  <div className="w-auto h-auto overflow-hidden">
-
+                  <div className="w-auto h-auto overflow-hidden relative">
+                    <div  className={cn(`w-full h-full z-[5] absolute bg-[#FFFEFA] delay-200   ${isOpen && "animate-slideLeftToRight"}`)}></div>
                   {price[4].value > price[5].value ? (
-                    <i className={cn(`bx bx-trending-down text-[5rem] !text-red-500 ${isOpen && "animate-slideLeftToRight"}`)}></i>
+                    <i className={cn(`bx bx-trending-down z-[4] text-[5rem] !text-red-500 `)}></i>
                   ) : price[4].value == price[5].value ? (
                     <i className="bx bx-minus text-[5rem] text-slate-500"></i>
                   ) : (
-                    <i className={cn(`bx bx-trending-up text-[5rem] !text-green-500 mt-[1rem] ${isOpen && "animate-slideLeftToRight"}`)}></i>
+                    <i className={cn(`bx bx-trending-up z-[4] text-[5rem] !text-green-500 mt-[1rem]`)}></i>
                   )}
                   </div>
                 </div>
@@ -207,7 +207,6 @@ export default function Card({
                         data: price.map((item: itemPrices) => item.value),
                         borderColor: "#9FBA42",
                         borderWidth: 2,
-                        // backgroundColor: "rgba(159, 186, 66, 0.3)",
                         pointRadius: 4,
                         pointBorderColor: "#b3bf82",
                         pointBorderWidth: 0.5,

@@ -37,18 +37,26 @@ export default {
           "75%": { opacity: 0.5 },
           "100%": { opacity: 1 },
         },
+        popUp: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
+        },
         slideLeftToRight: {
-          "0%": { transform: "translateX(-100%)" },
-          "100%": { transform: "translateX(0)" },
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(100%)" },
         },
       },
       animation: {
         rotateInfinite: "rotateInfinite 1.5s ease-out infinite",
         popUpInfinite: "popUpInfinite 1.5s ease-in-out infinite",
         slideLeftToRight: "slideLeftToRight 1s ease-out forwards",
+        popUp: "popUp 0.8s ease-in-out",
       },
       height: {
         dvh: "100dvh",
+      },
+      screens: {
+        xs: "421px",
       },
     },
   },
