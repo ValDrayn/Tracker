@@ -101,7 +101,7 @@ export default function AppLayout() {
       {isValid && (
         <Select
           showSearch
-          placeholder="Select a city"
+          placeholder="Select Province's"
           optionFilterProp="label"
           size="large"
           value={selectedValue || undefined}
