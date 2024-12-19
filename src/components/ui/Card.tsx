@@ -106,8 +106,12 @@ export default function Card({
 
   const adjustDesc = descriptions?.["Paragraph-1"]?.replace(
     "12-18",
-    percentage?.toString() || "default-value"
+    percentages?.toFixed(2).toString() || "default-value"
   );
+
+  // console.log(percentages?.toString());
+  // console.log(percentage?.toString());
+
 
   const formatPercentage = (percentages: number | null) => {
     if (percentages == null) return "0";
