@@ -13,8 +13,8 @@ import {
   Filler,
 } from "chart.js";
 import { Line } from "react-chartjs-2";
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "framer-motion";
+import { motion } from "framer-motion";
+// import { useInView } from "framer-motion";
 import axios from "axios";
 import dataDesc from "../../../public/data/description.json";
 import { Skeleton } from "antd";
@@ -61,8 +61,7 @@ export default function Card({
 
   const containerRef = useRef(null);
 
-  const isInView = useInView(containerRef, { once: true, margin: "50%" });
-  const mainControls = useAnimation();
+  // const isInView = useInView(containerRef, { once: true, margin: "50%" });
 
   const formattedPrice = predicted ? onFormattedPrice(predicted) : "0";
 
@@ -98,7 +97,7 @@ export default function Card({
   }, [item, location]);
 
   const descriptions =
-    price[4].value < price[5].value
+    price[5].value < predicted
       ? dataDesc.data.find((items) => {
           return item === items.Item;
         })
