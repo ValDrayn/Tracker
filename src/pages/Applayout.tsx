@@ -119,7 +119,7 @@ export default function AppLayout() {
             className="font-bold text-[1.125rem]"
             style={{ color: "#989053" }}
           >
-            {location.pathname == "/home" && <span>Top 3 </span>}List predicted price in next month
+            {location.pathname == "/home" && <span>Top 3 p</span>}{location.pathname != "/home" && "P"}redicted price next month
           </span>
         </div>
       )}
