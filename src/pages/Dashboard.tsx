@@ -4,6 +4,7 @@ import { countUrl, produce } from "@/lib/data";
 import { useDialog } from "@/components/ui/Dialog";
 import { cn } from "@/lib/utils";
 import { Select } from "antd";
+import DashboardList from "@/components/ui/dashboardList";
 
 export default function Dashboard() {
   const [selected, setSelected] = useState("");
@@ -60,56 +61,48 @@ export default function Dashboard() {
           onChange={(value) => handleChange(value)}
         />
       </div>
-      <div className="h-[58%] overflow-y-auto scrollbar-hide gap-[5px] flex flex-col">
+      <div className="h-[58%] overflow-y-auto scrollbar-hide gap-[7px] flex flex-col py-[0.2rem]">
         {dataAOL.data
           .filter((item) => !selected || item.Komoditas === selected) 
           .map((item, index) => {
-            const onFormattedPrice = (price: any) => {
-              return price.value !== null
-                ? price.value.toLocaleString("id-ID")
-                : 0;
-            };
-
-            const formattedPrice = item.price
-              ? onFormattedPrice(item.price[5])
-              : [];
 
             return (
-              <div
-                className="flex justify-between items-center"
-                key={item.Komoditas+index}
-              >
-                <div className="flex items-baseline">
-                  <p className="text-[1rem] text-[#B09B82] font-body">
-                    {item.Komoditas}&nbsp;
-                  </p>
-                  <p className="text-[0.625rem] text-[#B09B82] font-body">
-                    {" "}
-                    ({item.Provinsi})
-                  </p>
-                </div>
+              // <div
+              //   className="flex justify-between items-center"
+              //   key={item.Komoditas+index}
+              // >
+              //   <div className="flex items-baseline">
+              //     <p className="text-[1rem] text-[#B09B82] font-body">
+              //       {item.Komoditas}&nbsp;
+              //     </p>
+              //     <p className="text-[0.625rem] text-[#B09B82] font-body">
+              //       {" "}
+              //       ({item.Provinsi})
+              //     </p>
+              //   </div>
 
-                <div className="flex relative items-center justify-center gap-[6px]">
-                  <p className="text-[1rem] font-medium text-[#B09B82]">
-                    Rp. {formattedPrice}
-                  </p>
-                  {item.price[4].value > item.price[5].value ? (
-                    <i
-                      className={cn(
-                        `bx bx-trending-down z-[4] text-[2rem] !text-red-500 `
-                      )}
-                    ></i>
-                  ) : item.price[4].value == item.price[5].value ? (
-                    <i className="bx bx-minus text-[2rem] text-slate-500"></i>
-                  ) : (
-                    <i
-                      className={cn(
-                        `bx bx-trending-up z-[4] text-[2rem] !text-green-500`
-                      )}
-                    ></i>
-                  )}
-                </div>
-              </div>
+              //   <div className="flex relative items-center justify-center gap-[6px]">
+              //     <p className="text-[1rem] font-medium text-[#B09B82]">
+              //       Rp.{formattedPrice}
+              //     </p>
+              //     {item.price[4].value > item.price[5].value ? (
+              //       <i
+              //         className={cn(
+              //           `bx bx-trending-down z-[4] text-[2rem] !text-red-500 `
+              //         )}
+              //       ></i>
+              //     ) : item.price[4].value == item.price[5].value ? (
+              //       <i className="bx bx-minus text-[2rem] text-slate-500"></i>
+              //     ) : (
+              //       <i
+              //         className={cn(
+              //           `bx bx-trending-up z-[4] text-[2rem] !text-green-500`
+              //         )}
+              //       ></i>
+              //     )}
+              //   </div>
+              // </div>
+              <DashboardList index={index} komoditas={item.Komoditas} price={item.price} provinsi={item.Provinsi}/>
             );
           })}
       </div>

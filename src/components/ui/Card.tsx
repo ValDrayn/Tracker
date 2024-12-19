@@ -50,36 +50,45 @@ export default function Card({
   ...props
 }: Props & HTMLAttributes<HTMLDivElement>) {
   const [isOpen, setIsOpen] = useState(false);
-  const [predicted, setPredicted] = useState();
+  const [predicted, setPredicted] = useState<number>(0);
 
-  const onFormattedPrice = (price: itemPrices) => {
-    return price.value !== null ? price.value.toLocaleString("id-ID") : 0;
+  const onFormattedPrice = (price: number | null) => {
+    return price !== null ? price.toLocaleString("id-ID") : "0";
   };
 
   const containerRef = useRef(null);
 
   const isInView = useInView(containerRef, { once: true });
 
-  const formattedPrice = price ? onFormattedPrice(price[5]) : [];
+  const formattedPrice = predicted ? onFormattedPrice(predicted) : "0";
+
+  const percentageComponent = (predicted - price[5].value)
+  const percentages = percentageComponent / price[5].value * 100;
+
+  const [prices, setPrices] = useState(price);
+
+  const addData = () => {
+    const newMonth = `January 2025`;
+    setPrices([...price, { month: newMonth, value: predicted }]);
+  };
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        console.log("Fetching data...");
         const response = await axios.post("https://api-tracker.bncc.net", {
           komoditas: item,
           provinsi: location,
           bulan: 1,
         });
-        console.log("Response received:", response.data);
-        setPredicted(response.data);
+        console.log("Response received:", response.data.predicted_price);
+        setPredicted(response.data.predicted_price);
       } catch (error) {
         console.error("Error during API call:", error);
       }
     };
 
     fetchData();
-  }, []);
+  }, [item, location]);
 
   const descriptions =
     price[4].value < price[5].value
@@ -94,6 +103,19 @@ export default function Card({
     "12-18",
     percentage?.toString() || "default-value"
   );
+
+  const formatPercentage = (percentages: number | null) => {
+    if (percentages == null) return "0";
+    const absoluteValue = Math.abs(percentages);
+    return Math.floor(absoluteValue).toString();
+  }; 
+
+  const formatPercentageOne = (percentages: number | null) => {
+    if (percentages == null) return "0.0"; // Default return value
+    const absoluteValue = Math.abs(percentages);
+    return absoluteValue.toFixed(2); // Membatasi 1 angka di belakang koma
+  };
+
   return (
     <div className={cn("flex justify-center w-full", props.className)}>
       <motion.div
@@ -146,9 +168,25 @@ export default function Card({
               >
                 {item}
               </p>
-              <p className="text-[4rem] font-body" style={{ color: "#989053" }}>
-                {percentage}%
+              <p className="text-[3rem] font-body leading-3 mt-2" style={{ color: "#989053" }}>
+              {formatPercentage(percentages).length > 1 ? formatPercentage(percentages) : formatPercentageOne(percentages)}%
+              <span>{price[5].value > predicted ? (
+                      <i
+                        className={cn(
+                          `bx bx-trending-down z-[4] text-[3rem] !text-red-500 `
+                        )}
+                      ></i>
+                    ) : price[5].value == predicted ? (
+                      <i className="bx bx-minus text-[3rem] text-slate-500"></i>
+                    ) : (
+                      <i
+                        className={cn(
+                          `bx bx-trending-up z-[4] text-[3rem] !text-green-500`
+                        )}
+                      ></i>
+                    )}</span>
               </p>
+              <p className="text-[1rem] font-body font-medium" style={{ color: "#989053" }}>Rp. {onFormattedPrice(price[5].value)} {"->"} {formattedPrice}</p>
             </div>
           </div>
 
@@ -157,7 +195,7 @@ export default function Card({
               variant="primary"
               className="w-full"
               onClick={() => {
-                setIsOpen(!isOpen);
+                setIsOpen(!isOpen), addData()
               }}
             >
               Detail
@@ -207,7 +245,7 @@ export default function Card({
                 <div className="flex gap-[1rem] relative overflow-hidden">
                   <div>
                     <h1 className="font-bold font-body text-[2.25rem]">
-                      {percentage}%
+                    {formatPercentageOne(percentages)}%
                     </h1>
                     <h1 className="font-medium font-body text-[1.5rem]">
                       Rp. {formattedPrice}
@@ -221,13 +259,13 @@ export default function Card({
                         }`
                       )}
                     ></div>
-                    {price[4].value > price[5].value ? (
+                    {price[5].value > predicted ? (
                       <i
                         className={cn(
                           `bx bx-trending-down z-[4] text-[5rem] !text-red-500 `
                         )}
                       ></i>
-                    ) : price[4].value == price[5].value ? (
+                    ) : price[5].value == predicted ? (
                       <i className="bx bx-minus text-[5rem] text-slate-500"></i>
                     ) : (
                       <i
@@ -244,11 +282,11 @@ export default function Card({
               {isOpen && (
                 <Line
                   data={{
-                    labels: price.map((item: itemPrices) => item.month),
+                    labels: prices.map((item: itemPrices) => item.month),
                     datasets: [
                       {
                         label: "Price",
-                        data: price.map((item: itemPrices) => item.value),
+                        data: prices.map((item: itemPrices) => item.value),
                         borderColor: "#9FBA42",
                         borderWidth: 2,
                         pointRadius: 4,
