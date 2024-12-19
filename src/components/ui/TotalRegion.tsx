@@ -1,6 +1,7 @@
 import { url } from "@/lib/data";
 import { useDialog } from "../ui/Dialog";
-import { useInView, motion } from "framer-motion";
+import { motion } from "framer-motion";
+// import { useInView } from "framer-motion";
 import { useRef } from "react";
 
 export default function TotalRegion() {
