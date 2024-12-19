@@ -40,7 +40,7 @@ export default function TotalRegion() {
                 //   damping: 25,
                 //   delay: index * 0.2, // Menambahkan delay
                 // }}
-                className="flex items-center gap-2 hover:bg-[#fff1b9] rounded-lg px-2 py-[0.1rem]"
+                className="flex items-center gap-2 hover:bg-[#fff1b9] rounded-lg px-2 py-[0.1rem] cursor-ns-resize"
               >
                 <i className="bx bxs-map text-darker-blue text-[1rem]"></i>
                 <p className="font-body text-[1rem] font-semibold">{item}</p>

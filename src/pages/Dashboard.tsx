@@ -2,17 +2,18 @@ import { useState } from "react";
 import dataAOL from "../../public/data/databaseAOL.json";
 import { countUrl, produce } from "@/lib/data";
 import { useDialog } from "@/components/ui/Dialog";
-import { cn } from "@/lib/utils";
 import { Select } from "antd";
 import DashboardList from "@/components/ui/dashboardList";
 
 export default function Dashboard() {
-  const [selected, setSelected] = useState("");
+  const [selected, setSelected] = useState("Bawang Putih");
   const { showDialog } = useDialog();
 
   const handleChange = (value: string) => {
     setSelected(value);
   };
+
+  
 
   return (
     <div className="w-full h-full">
@@ -61,7 +62,7 @@ export default function Dashboard() {
           onChange={(value) => handleChange(value)}
         />
       </div>
-      <div className="h-[58%] overflow-y-auto scrollbar-hide gap-[7px] flex flex-col py-[0.2rem]">
+      <div className="h-[58%] overflow-y-auto scrollbar-hide flex flex-col py-[0.2rem]">
         {dataAOL.data
           .filter((item) => !selected || item.Komoditas === selected) 
           .map((item, index) => {

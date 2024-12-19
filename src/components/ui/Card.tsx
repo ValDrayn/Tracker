@@ -16,6 +16,7 @@ import { Line } from "react-chartjs-2";
 import { motion, useInView } from "framer-motion";
 import axios from "axios";
 import dataDesc from "../../../public/data/description.json";
+import { Skeleton } from "antd";
 
 ChartJS.register(
   CategoryScale,
@@ -51,6 +52,7 @@ export default function Card({
 }: Props & HTMLAttributes<HTMLDivElement>) {
   const [isOpen, setIsOpen] = useState(false);
   const [predicted, setPredicted] = useState<number>(0);
+  const [loading, setLoading] = useState(false);
 
   const onFormattedPrice = (price: number | null) => {
     return price !== null ? price.toLocaleString("id-ID") : "0";
@@ -62,8 +64,8 @@ export default function Card({
 
   const formattedPrice = predicted ? onFormattedPrice(predicted) : "0";
 
-  const percentageComponent = (predicted - price[5].value)
-  const percentages = percentageComponent / price[5].value * 100;
+  const percentageComponent = predicted - price[5].value;
+  const percentages = (percentageComponent / price[5].value) * 100;
 
   const [prices, setPrices] = useState(price);
 
@@ -75,6 +77,7 @@ export default function Card({
   useEffect(() => {
     const fetchData = async () => {
       try {
+        setLoading(true);
         const response = await axios.post("https://api-tracker.bncc.net", {
           komoditas: item,
           provinsi: location,
@@ -84,6 +87,8 @@ export default function Card({
         setPredicted(response.data.predicted_price);
       } catch (error) {
         console.error("Error during API call:", error);
+      } finally {
+        setLoading(false);
       }
     };
 
@@ -108,26 +113,36 @@ export default function Card({
     if (percentages == null) return "0";
     const absoluteValue = Math.abs(percentages);
     return Math.floor(absoluteValue).toString();
-  }; 
+  };
 
   const formatPercentageOne = (percentages: number | null) => {
-    if (percentages == null) return "0.0"; // Default return value
+    if (percentages == null) return "0.0";
     const absoluteValue = Math.abs(percentages);
-    return absoluteValue.toFixed(2); // Membatasi 1 angka di belakang koma
+    return absoluteValue.toFixed(2);
   };
 
   return (
-    <div className={cn("flex justify-center w-full", props.className)}>
+    <>
+      {loading ? <Skeleton.Input
+        active
+        className={cn(`flex justify-center w-[10rem] h-[4rem]`, props.className)}
+      /> : <div className={cn("flex justify-center w-full", props.className)}>
       <motion.div
         ref={containerRef}
         initial={{ opacity: 0, x: -200 }}
-        animate={{
-          opacity: isInView ? 1 : 0,
-          x: isInView ? 0 : -200,
-          scale: 0.95,
-        }}
+        // animate={{
+        //   opacity: isInView ? 1 : 0,
+        //   x: isInView ? 0 : -200,
+        //   scale: 0.95,
+        // }}
+        animate={{ opacity: 1, x: 0, scale: 0.95 }}
         viewport={{ margin: "-140px" }}
-        transition={{ type: "spring", stiffness: 100, damping: 25, delay: 0.3 }}
+        transition={{
+          type: "spring",
+          stiffness: 100,
+          damping: 25,
+          delay: 0.3,
+        }}
         className="z-[1] rounded-[1.5rem] overflow-hidden relative w-full shadow-xl"
         style={{ backgroundColor: "#EDF9CE" }}
       >
@@ -168,25 +183,38 @@ export default function Card({
               >
                 {item}
               </p>
-              <p className="text-[3rem] font-body leading-3 mt-2" style={{ color: "#989053" }}>
-              {formatPercentage(percentages).length > 1 ? formatPercentage(percentages) : formatPercentageOne(percentages)}%
-              <span>{price[5].value > predicted ? (
-                      <i
-                        className={cn(
-                          `bx bx-trending-down z-[4] text-[3rem] !text-red-500 `
-                        )}
-                      ></i>
-                    ) : price[5].value == predicted ? (
-                      <i className="bx bx-minus text-[3rem] text-slate-500"></i>
-                    ) : (
-                      <i
-                        className={cn(
-                          `bx bx-trending-up z-[4] text-[3rem] !text-green-500`
-                        )}
-                      ></i>
-                    )}</span>
+              <p
+                className="text-[2.5rem] font-body leading-3 mt-2"
+                style={{ color: "#989053" }}
+              >
+                {formatPercentage(percentages).length > 1
+                  ? formatPercentage(percentages)
+                  : formatPercentageOne(percentages)}
+                %
+                <span>
+                  {price[5].value > predicted ? (
+                    <i
+                      className={cn(
+                        `bx bx-trending-down z-[4] text-[3rem] !text-red-500 `
+                      )}
+                    ></i>
+                  ) : price[5].value == predicted ? (
+                    <i className="bx bx-minus text-[3rem] text-slate-500"></i>
+                  ) : (
+                    <i
+                      className={cn(
+                        `bx bx-trending-up z-[4] text-[3rem] !text-green-500 `
+                      )}
+                    ></i>
+                  )}
+                </span>
               </p>
-              <p className="text-[1rem] font-body font-medium" style={{ color: "#989053" }}>Rp. {onFormattedPrice(price[5].value)} {"->"} {formattedPrice}</p>
+              <p
+                className="text-[0.9rem] font-body font-medium"
+                style={{ color: "#989053" }}
+              >
+                Rp. {onFormattedPrice(price[5].value)} {"->"} {formattedPrice}
+              </p>
             </div>
           </div>
 
@@ -195,7 +223,7 @@ export default function Card({
               variant="primary"
               className="w-full"
               onClick={() => {
-                setIsOpen(!isOpen), addData()
+                setIsOpen(!isOpen), addData();
               }}
             >
               Detail
@@ -242,13 +270,13 @@ export default function Card({
                 >
                   {item}
                 </h1>
-                <div className="flex gap-[1rem] relative overflow-hidden">
+                <div className="flex gap-[0.75rem] relative overflow-hidden">
                   <div>
                     <h1 className="font-bold font-body text-[2.25rem]">
-                    {formatPercentageOne(percentages)}%
+                      {formatPercentageOne(percentages)}%
                     </h1>
-                    <h1 className="font-medium font-body text-[1.5rem]">
-                      Rp. {formattedPrice}
+                    <h1 className="font-medium font-body text-[1.25rem]">
+                      Rp. {formattedPrice}/Kg
                     </h1>
                   </div>
                   <div className="w-auto h-auto overflow-hidden relative">
@@ -262,15 +290,15 @@ export default function Card({
                     {price[5].value > predicted ? (
                       <i
                         className={cn(
-                          `bx bx-trending-down z-[4] text-[5rem] !text-red-500 `
+                          `bx bx-trending-down z-[4] text-[4.5rem] !text-red-500 `
                         )}
                       ></i>
                     ) : price[5].value == predicted ? (
-                      <i className="bx bx-minus text-[5rem] text-slate-500"></i>
+                      <i className="bx bx-minus text-[4.5rem] text-slate-500"></i>
                     ) : (
                       <i
                         className={cn(
-                          `bx bx-trending-up z-[4] text-[5rem] !text-green-500 mt-[1rem]`
+                          `bx bx-trending-up z-[4] text-[4.5rem] !text-green-500 mt-[1rem]`
                         )}
                       ></i>
                     )}
@@ -398,13 +426,18 @@ export default function Card({
                 <b>{descriptions?.Source || "Unknown"}</b>
               </p>
               <p>
-                <span className="font-medium text-gray-800">Source Title:</span>{" "}
+                <span className="font-medium text-gray-800">
+                  Source Title:
+                </span>{" "}
                 <b>{descriptions?.["Source Title"] || "No Title Provided"}</b>
               </p>
             </div>
           </div>
+          F
         </div>
       </div>
-    </div>
+    </div>}
+      
+    </>
   );
 }

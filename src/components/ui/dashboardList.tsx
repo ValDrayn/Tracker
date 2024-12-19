@@ -62,7 +62,7 @@ export default function DashboardList({
 
   return (
     <div
-      className="flex justify-between items-center hover:bg-[#fff1b9] rounded-lg"
+      className="flex justify-between items-center hover:bg-[#fff1b9] rounded-lg py-[3.5px] cursor-ns-resize"
       key={`${komoditas}-${index}`}
     >
       <div className="flex items-baseline">
