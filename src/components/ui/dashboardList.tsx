@@ -42,7 +42,10 @@ export default function DashboardList({
       setLoading(true);
       try {
         console.log("Fetching data...");
-        const response = await axios.post("https://api-tracker.bncc.net", {
+
+        // Jika ingin menggunakan local atau server, pastikan untuk command salah satu dibawah ini
+        // const response = await axios.post("http://127.0.0.1:3998", { // for local
+        const response = await axios.post("https://api-tracker.bncc.net", { // for server
           komoditas,
           provinsi,
           bulan: 1,

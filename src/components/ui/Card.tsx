@@ -77,7 +77,10 @@ export default function Card({
     const fetchData = async () => {
       try {
         setLoading(true);
-        const response = await axios.post("https://api-tracker.bncc.net", {
+
+        // Jika ingin menggunakan local atau server, pastikan untuk command salah satu dibawah ini
+        // const response = await axios.post("https://api-tracker.bncc.net", { // for local
+        const response = await axios.post("https://api-tracker.bncc.net", { // for server
           komoditas: item,
           provinsi: location,
           bulan: 1,
