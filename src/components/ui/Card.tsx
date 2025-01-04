@@ -1,4 +1,3 @@
-import { cn } from "@/lib/utils";
 import { Buttons } from "./Buttons";
 import { HTMLAttributes, useEffect, useRef, useState } from "react";
 import {
@@ -18,6 +17,7 @@ import { motion } from "framer-motion";
 import axios from "axios";
 import dataDesc from "../../../public/data/description.json";
 import { Skeleton } from "antd";
+import { cn } from "../../lib/utils";
 
 ChartJS.register(
   CategoryScale,
@@ -37,7 +37,6 @@ type itemPrices = {
 
 type Props = {
   location?: string;
-  percentage?: number;
   item: string;
   id?: number;
   price: itemPrices[];
@@ -45,7 +44,6 @@ type Props = {
 
 export default function Card({
   location,
-  percentage,
   item,
   id,
   price,

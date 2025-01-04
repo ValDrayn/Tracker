@@ -3,6 +3,7 @@ import { Outlet } from "react-router-dom";
 import { DialogComponents, DialogProvider } from "../ui/Dialog";
 import TotalRegion from "../ui/TotalRegion";
 import TotalProduce from "../ui/TotalProduce";
+import { cn } from "../../lib/utils";
 
 export default function ContextPool() {
   const [isHeightTooSmall, setIsHeightTooSmall] = useState(false);
@@ -10,7 +11,7 @@ export default function ContextPool() {
 
   useEffect(() => {
     const MIN_HEIGHT = 720;
-    const MIN_WIDTH = 393;
+    const MIN_WIDTH = 380;
     const handleResize = () => {
       setIsHeightTooSmall(window.innerHeight < MIN_HEIGHT);
       setIsWidthTooSmall(window.innerWidth < MIN_WIDTH);
@@ -28,7 +29,7 @@ export default function ContextPool() {
   return (
     <DialogProvider components={dialog}>
       <div
-        className="w-full h-full flex justify-center"
+        className={cn(`w-full h-[100dvh] max-h-[100dvh] flex justify-center`)}
         style={{ backgroundColor: "#F5F5F5" }}
       >
         {isHeightTooSmall && (

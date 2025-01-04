@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { cn } from "@/lib/utils";
+import { cn } from "../../lib/utils";
 import axios from "axios";
 
 type ItemPrices = {
@@ -47,7 +47,6 @@ export default function DashboardList({
           provinsi,
           bulan: 1,
         });
-        console.log("Response received:", response.data.predicted_price);
         setPredicted(response.data.predicted_price);
       } catch (error) {
         console.error("Error during API call:", error);
@@ -62,10 +61,10 @@ export default function DashboardList({
 
   return (
     <div
-      className="flex justify-between items-center hover:bg-[#fff1b9] rounded-lg py-[3.5px] cursor-ns-resize"
+      className={cn(`flex justify-between items-center hover:bg-[#fff1b9] rounded-lg py-[3.5px] cursor-ns-resize`)}
       key={`${komoditas}-${index}`}
     >
-      <div className="flex items-baseline">
+      <div className={cn(`flex items-baseline ${window.innerWidth < 415 ? "scale-90" : "scale-100"}`)}>
         <p className="text-[1rem] text-[#B09B82] font-body">
           {komoditas}&nbsp;
         </p>
@@ -75,7 +74,7 @@ export default function DashboardList({
         </p>
       </div>
 
-      <div className="flex relative items-center justify-center gap-[6px]">
+      <div className={cn(`flex relative items-center justify-center gap-[6px] ${window.innerWidth < 390 ? "scale-90" : "scale-100"}`)}>
         {loading ? (
           <p className="text-[1rem] text-gray-500 font-medium animate-popUpInfinite">
             Loading...

@@ -5,6 +5,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { Outlet, useLocation, useNavigate } from "react-router-dom";
 import { url, validRoutes } from "../lib/data";
+import { cn } from "../lib/utils";
 
 const headers = {
   "/home": <HeaderProfile />,
@@ -39,7 +40,7 @@ export default function AppLayout() {
   
   
   return (
-    <div className="max-w-[26.875rem] w-full min-w-[24.5rem] h-[100vh] flex flex-col items-center p-4 bg-[#FFFEFA] relative overflow-hidden">
+    <div className={cn(`max-w-[26.875rem] w-full min-w-[23.5rem] h-[100vh] flex flex-col items-center p-4 bg-[#FFFEFA] relative overflow-hidden`)}>
       <section ref={containerRef}>
         <motion.div
           key={location.pathname}
@@ -80,7 +81,7 @@ export default function AppLayout() {
         </div>
       )}
       <Outlet />
-      <Navbar className="absolute bottom-0 z-[100]" />
+      <Navbar className={cn(`absolute bottom-0 z-[100]`)} />
     </div>
   );
 }
