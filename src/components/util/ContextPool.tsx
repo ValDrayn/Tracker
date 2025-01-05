@@ -10,7 +10,7 @@ export default function ContextPool() {
   const [isWidthTooSmall, setIsWidthTooSmall] = useState(false);
 
   useEffect(() => {
-    const MIN_HEIGHT = 720;
+    const MIN_HEIGHT = 700;
     const MIN_WIDTH = 380;
     const handleResize = () => {
       setIsHeightTooSmall(window.innerHeight < MIN_HEIGHT);
