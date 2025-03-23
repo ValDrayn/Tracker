@@ -1,4 +1,4 @@
-import { produce } from "@/lib/data";
+import { produce } from "../../lib/data";
 import { useDialog } from "../ui/Dialog";
 import { motion } from "framer-motion";
 // import { useInView } from "framer-motion";
@@ -6,10 +6,10 @@ import { useRef } from "react";
 
 export default function TotalProduce() {
   const { closeDialog } = useDialog();
-
   const containerRef = useRef(null);
 
   // const isInView = useInView(containerRef, { once: true, margin: "-140px" });
+  
 
   return (
     <div className="bg-[#FFFEFA] p-8 rounded-[1.25rem] w-[370px]">
